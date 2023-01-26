@@ -2,6 +2,7 @@
 //Press the play button in the top right corner
 //If the terminal switches to the debug console tab, just click back
 //Delete the output folder after each test
+//Make sure there are no unnecessary spaces
 
 
 
@@ -25,7 +26,7 @@ int main(){
         fileName = "data/input.txt";
     }
     readFile(fileName);
-    cout<<"Thank you for using the calculator.";
+    cout<<"Thank you for using the calculator."<<endl;
 }
 
 //Method to read the file into an array
@@ -71,6 +72,7 @@ int shape(string value)
     string line = value;
     string delim = " ";
     string shape = line.substr(0,line.find(delim));
+    remove(shape.begin(),shape.end(), ' ');
     string vals = line.substr(line.find(delim)+1);
     transform(shape.begin(), shape.end(), shape.begin(), ::tolower);
     if (shape.compare("triangle")==0)
@@ -87,7 +89,7 @@ int shape(string value)
     }
     else
     {
-        cout<<"Shape not recognized.";
+        cout<<"Shape not recognized."<<endl;
         return 0;
     }
     return 0;
@@ -96,8 +98,12 @@ int shape(string value)
 //Method to check area and rectangle of a triangle
 int triangleCalc(string line)
 {
+    transform(line.begin(), line.end(), line.begin(), ::tolower);
+    int p = line.find_first_not_of(' ');
+    line.erase(0,p);
+    string x;
     cout<<"Triangle:"<<endl;
-    if(line.length()<5)
+    if(line.length()<5||line.compare("triangle")==0)
     {
         cout<<"Not enough information to calculate."<<endl;
         return 0;
@@ -107,13 +113,21 @@ int triangleCalc(string line)
     int val2=-1;
     int val3=-1;
     string delim = " ";
-    val1 = stoi(line.substr(0,line.find(delim)));
+    x = (line.substr(0,line.find(delim)));
+    remove(x.begin(),x.end(), ' ');
+    val1 = stoi(x);
     line = line.substr(line.find(delim)+1);
-    val2 = stoi(line.substr(0,line.find(delim)));
-    val3 = stoi(line.substr(line.find(delim)+1,line.find(delim)+2));
+    p = line.find_first_not_of(' ');
+    line.erase(0,p);
+    x=(line.substr(0,line.find(delim)));
+    val2 = stoi(x);
+    x=line.substr(line.find(delim)+1,line.find(delim)+2);
+    p = line.find_first_not_of(' ');
+    line.erase(0,p);
+    val3 = stoi(x);
     if((val1<=0)||(val2<=0)||(val3<=0))
     {
-        cout<<"Please enter valid numbers for the triangle.";
+        cout<<"Please enter valid numbers for the triangle."<<endl;
         return 0;
     }
     bool check = true;
@@ -125,7 +139,7 @@ int triangleCalc(string line)
         if(resp ==1)
         {
             check =false;
-            cout<<"Sorry, I cannot check the area of a triangle.";
+            cout<<"Sorry, I cannot check the area of a triangle."<<endl;
             return 0;
         }
         else if(resp ==2)
@@ -148,8 +162,12 @@ int triangleCalc(string line)
 //Method to calculate area and perimiter of a rectangle
 int rectCalc(string line)
 {
+    transform(line.begin(), line.end(), line.begin(), ::tolower);
+    string x;
+    int p = line.find_first_not_of(' ');
+    line.erase(0,p);
     cout<<"Rectangle: "<<endl;
-    if(line.length()<3)
+    if(line.length()<3|| line.compare("rectangle")==0)
     {
         cout<<"Not enough information to calculate."<<endl;
         return 0;
@@ -158,12 +176,17 @@ int rectCalc(string line)
     int val1=-1;
     int val2=-1;
     string delim = " ";
-    val1 = stoi(line.substr(0,line.find(delim)));
+    x = (line.substr(0,line.find(delim)));
+    remove(x.begin(),x.end(), ' ');
+    val1 = stoi(x);
     line = line.substr(line.find(delim)+1);
-    val2 = stoi(line.substr(line.find(delim)+1,line.find(delim)+2));
+    p = line.find_first_not_of(' ');
+    line.erase(0,p);
+    x=(line.substr(0,line.find(delim)));
+    val2 = stoi(x);
     if((val1<=0)||(val2<=0))
     {
-        cout<<"Please enter valid numbers for the rectangle.";
+        cout<<"Please enter valid numbers for the rectangle."<<endl;
         return 0;
     }
     bool check = true;
@@ -177,7 +200,7 @@ int rectCalc(string line)
             check =false;
             int ar = (val1*val2);
             string ar1 = to_string(ar);
-            string area = "Rectangle area: "+ar;
+            string area = "Rectangle area: "+ar1;
             writeFile(area);
         }
         else if(resp ==2)
@@ -185,12 +208,12 @@ int rectCalc(string line)
             check = false;
             int per = val1+val2+val1+val2;
             string per1 = to_string(per);
-            string  perim = "Square perimiter: "+per;
+            string  perim = "Rectangle perimiter: "+per1;
             writeFile(perim);
         }
         else
         {
-            cout<<"Invalid response try again";
+            cout<<"Invalid response try again"<<endl;
             check == true;
         }
     }
@@ -200,8 +223,10 @@ int rectCalc(string line)
 //Method to calculate area and perimiter of a circle
 int circCalc(string line)
 {
+    transform(line.begin(), line.end(), line.begin(), ::tolower);
+    remove(line.begin(), line.end(), ' ');
     cout<<"Circle: "<<endl;
-    if(line.length()<1)
+    if(line.length()<1 ||line.compare("circle")==0)
     {
         cout<<"Not enough information to calculate"<<endl;
         return 0;
@@ -211,7 +236,7 @@ int circCalc(string line)
     val1 = stoi(line.substr(0,1));
     if((val1<=0))
     {
-        cout<<"Not enough valid information for the circle.";
+        cout<<"Not enough valid information for the circle."<<endl;
         return 0;
     }
     double pi = 3.14;
@@ -239,7 +264,7 @@ int circCalc(string line)
         }
         else
         {
-            cout<<"Invalid response try again";
+            cout<<"Invalid response try again"<<endl;
             check == true;
         }
     }
