@@ -1,2 +1,0 @@
-The result of addition on 9 and 6 is below
-15

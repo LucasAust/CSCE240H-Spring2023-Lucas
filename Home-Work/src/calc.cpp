@@ -1,5 +1,8 @@
 //To run program, press run in the top left corner, and click run without debugging. 
+//If it goes to the debug console screen, switch back to the terminal
 //Enter data/input.txt when asked for the file name.
+//Output will be printed to data/output.txt
+//FOCUS ON REUSABILITY
 
 
 #include <iostream>
