@@ -2,7 +2,6 @@
 //Press the play button in the top right corner
 //If the terminal switches to the debug console tab, just click back
 //Delete the output folder after each test
-//Make sure there are no unnecessary spaces
 
 
 
