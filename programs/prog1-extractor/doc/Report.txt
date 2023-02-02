@@ -1,0 +1,34 @@
+Lucas Aust
+Report for Program 1
+
+Problem
+
+For this program, I had to write a program that would take a disease from user input, then print out the statistics of two articles about the disease from different sources.
+
+After that, the program would output the information in the articles to output files for each source.
+
+
+Solution
+
+First, I wrote a method that would greet the user. This method would then call another method that would prompt the user to enter the disease that they want to discuss.
+
+The program would then call a method based on the user input. The next method would prompt the user to enter the file names of the files they want to be analyzed.
+
+The program would then call another method to read these files. This method would count each line in the file and store it to an array. 
+
+The program would then count the words and characters in each ot the lines using the split and length methods respectively.
+
+The program would then print each of these values to the terminal. After returning to the previous method, the program would ask the user to input the names of the files they wanted to write to.
+
+The program would call the write method and provide the fileNames. This method would then write the data to the given files.
+
+
+Challenges
+
+The main problem that I had writing this program was figuring out how to correctly use methods in order to increase the functionality and reusability of my code.
+
+Another problem that I faced was how to split each line into how many words it has. I solved this by researching regex operators and finding the \s+ which identifies 1 or more whitespaces in between words.
+
+The final problem I faced was figuring out how to store each line of the article so I could output later in the progrmam, especially since the amount of lines was unknown.
+
+To solve this, I used public arraylists that could take on any size.
