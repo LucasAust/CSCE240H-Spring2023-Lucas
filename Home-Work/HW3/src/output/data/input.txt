@@ -1,1 +1,2 @@
 triangle 6 3 4
+rectangle 3 4

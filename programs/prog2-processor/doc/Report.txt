@@ -1,0 +1,20 @@
+Lucas Aust
+Report for Program 2
+
+Problem
+
+For this assignment, I had to write a program that would take a disease from user input, read data from files from this input, and answer certain questions about the disease with information from those articles.
+The program would then print the answers to these questions on the console.
+
+Solution
+
+First I wrote a main method that would greet the user and call the first method. This method asked what disease the user wanted to learn about, and call a method based on that disease.
+The next method would ask the user for files to read from and call a method to read those files. The read method returned an array that would be used as the article later in the program.
+The method then added the articles an arrayList to be read from. Finally, this method called the main bot method. The bot method would take a user inputted question and check to see if it could give information to answer that question.
+If not, the program would simply ask for another prompt. However, if the program did have information, it would scan each article for the information, and print it to the console for the user to read.
+
+
+Challenges
+The main problem I had was conceptual, not in the acutal code. I struggled to figure out what article to use first for my information. I decided to just use whatever article the user inputted first because it may be the one that is most important to them.
+The next problem I faced was figuring out how to deal with when the first article did not have the necessary information. To solve this, I created an arrayList that would hold each article. I would then loop through each article until I found the information.
+One final problem I faced was only printing out one set of information when both articles had it. I solved this by implementing break statements in my code.
