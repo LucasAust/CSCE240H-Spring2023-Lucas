@@ -1,0 +1,2073 @@
+Received: from DM6PR12MB4252.namprd12.prod.outlook.com (2603:10b6:5:211::17)
+ by MW4PR12MB6976.namprd12.prod.outlook.com with HTTPS; Sat, 25 Feb 2023
+ 00:41:26 +0000
+Received: from AS9PR06CA0648.eurprd06.prod.outlook.com (2603:10a6:20b:46f::16)
+ by DM6PR12MB4252.namprd12.prod.outlook.com (2603:10b6:5:211::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.24; Sat, 25 Feb
+ 2023 00:41:23 +0000
+Received: from AM6EUR05FT034.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:20b:46f:cafe::cc) by AS9PR06CA0648.outlook.office365.com
+ (2603:10a6:20b:46f::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.25 via Frontend
+ Transport; Sat, 25 Feb 2023 00:41:22 +0000
+Authentication-Results: spf=pass (sender IP is 209.134.158.37)
+ smtp.mailfrom=messages.tax.ny.gov; dkim=pass (signature was verified)
+ header.d=messages.tax.ny.gov;dmarc=pass action=none
+ header.from=messages.tax.ny.gov;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of messages.tax.ny.gov
+ designates 209.134.158.37 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.134.158.37;
+ helo=mailer158037.service.govdelivery.com; pr=C
+Received: from mailer158037.service.govdelivery.com (209.134.158.37) by
+ AM6EUR05FT034.mail.protection.outlook.com (10.233.241.65) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6134.24 via Frontend Transport; Sat, 25 Feb 2023 00:41:22 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:49B00E087FAA17F46A7333DEC5C0BF1079BCC42259FD4604FC37BFEBCF4CC665;UpperCasedChecksum:9F28E6761B24C2A802052EF763F5CD1A55F663FEBE970E9AD7446C8A61B0E479;SizeAsReceived:1964;Count:21
+Received: from gepdp-smeds7-1.systems.dc.gdi ([10.5.36.46])
+	by mailer158037.service.govdelivery.com (-); Sat, 25 Feb 2023 00:41:21 +0000
+X-VirtualServer: VSG002, mailer158037.service.govdelivery.com, 10.5.38.105
+X-VirtualServerGroup: VSG002
+X-MailingID: 16899208::20230224.72234551::1001::MDB-PRD-BUL-20230224.72234551::ljaust7@hotmail.com::5839779_0_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: ljaust7@hotmail.com
+X-SMFBL: bGphdXN0N0Bob3RtYWlsLmNvbQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=messages.tax.ny.gov; s=17q4; i=@messages.tax.ny.gov; h=Content-Transfer-Encoding:
+	Content-Type:x-subscriber:X-Accountcode:Errors-To:MIME-Version:
+	Message-ID:X-ReportingKey:Subject:Date:To:Reply-To:From; bh=6O4R
+	uvuW7RYmBsEArvPHFyIlK12fBwAr/lBQHOzHCWE=; b=L1KIWIneJAuAhRqL/IoS
+	ifOz+JrZY6BlAUsWL0zTthJik/JzOj1vHpwA5kykgga8G5mUi8OCllHmA25znDB8
+	B3CsH6y3Z6yfv4MxNry1g6MTSvovM6JnBN2UBdjoNQ2JbH4odkTBsoO9EFfeJTlc
+	lx517a4scYGok23GlnBHR8naNkTTrGBECL+wcFG9rILcn72SMbqyo8HWqSyj8WX1
+	mrOgsHR0ARdnZnME+HM1IxPJDcdSMPABOb9GrfcOWsi91s0OPr2GSVfSUxPhWreO
+	O8V+Rov5PIYdMdYe5jIFNNH4letAqRMINElaGmBzS4ThMQ84wAl9eZT1n1ugj4Jq
+	fA==
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_334_3676_16A65A77.7892570E"
+x-subscriber: 3.6FeUOajxENSuU14KcJLmHgZwXyyJNdPzznChGVUIUBXPH19XciaNh6Z9m6TkxMJEheCd8V+fez7RwlCz0+IZv2od7akzObRJYV/P3QR4ZAmCETcv4vcEbQRBr36/GGm9ygDU3L6a1UjDFbxa00Q+KA==
+X-Accountcode: NYTAX
+Errors-To: information@messages.tax.ny.gov
+Message-ID: <16899208.5839779@messages.tax.ny.gov>
+X-ReportingKey: MJJJ2EWJKHEHVJJ26F7CYJJJ::ljaust7@hotmail.com::ljaust7@hotmail.com
+Subject: =?US-ASCII?Q?NYS_Tax_Department:_Find_free_income_tax_resources?=
+Date: Sat, 25 Feb 2023 00:41:09 +0000
+To: ljaust7@hotmail.com
+Reply-To: information@messages.tax.ny.gov
+From: "=?US-ASCII?Q?New_York_State_Department_of_Taxation_and_Finance?=" <information@messages.tax.ny.gov>
+X-IncomingHeaderCount: 21
+Return-Path: information@messages.tax.ny.gov
+X-MS-Exchange-Organization-ExpirationStartTime: 25 Feb 2023 00:41:22.6893
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ c9fb81fd-8305-4e31-96a2-08db16c904be
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM6EUR05FT034:EE_|DM6PR12MB4252:EE_
+X-MS-Exchange-Organization-AuthSource:
+ AM6EUR05FT034.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 2/25/2023 12:25:36 AM
+X-MS-Office365-Filtering-Correlation-Id: c9fb81fd-8305-4e31-96a2-08db16c904be
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.134.158.37
+X-SID-PRA: INFORMATION@MESSAGES.TAX.NY.GOV
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 2
+X-Microsoft-Antispam: BCL:1;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Feb 2023 00:41:22.2363
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: c9fb81fd-8305-4e31-96a2-08db16c904be
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM6EUR05FT034.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR12MB4252
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.2459839
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6134.021
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90005022)(91005020)(91035115)(9050020)(9100338)(4810004)(4910033)(8820095)(9910022)(9545005)(10170022)(9320005);
+X-Message-Info:
+	qZelhIiYnPkhkPKYv6AR6SQSX+lYQ/I6fI/ne/ypBN3/iXk6271Bv21p9SlfKw681/kLazdf3Joighudw4dvqY+zE9w8GIsTYBInVDZmKAf2D+n3TtZrQNRaM5w48Kg0Y7KXgX8mHcDUOdgLsNM9OU+OtJpvJXsk6WHXX4nrHo8M6G6zv1HbeKcfrAKwhLShE8/gJGxBL3fOdDGz5tJzlg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?b1p3ZGhYSjRvekRESUE5WXlndGZaaHR6cks5NEZoVXJFMXVlMUpTQzRIUVBF?=
+ =?utf-8?B?QXMvNy9LNGEwMUgwMmR5d2NFWEh6NHVmZEZzQ3JtOXJHSDdEbWZiY084ZnB2?=
+ =?utf-8?B?QThqcGx0MU5MZGEzTzJQbnh4Sm9wTFVPUWVjR0h3VFFyNHRLQ3hWYnBaekV0?=
+ =?utf-8?B?Y0R6bElibnlRc1E3OGdxbFJGdjQ1cEdHUlJkMFhheXRxLzZOYWJsb1JvYnRa?=
+ =?utf-8?B?azQwQkFlamQ1UnFJT2QybG9ZcGJkUEdtaG1pSG5wUlJrQkF4ZGlDZmpTVUlu?=
+ =?utf-8?B?emd0MXpxakNFYlVJRU5Gdlh0Q1o3SEQyRmVFSEZBYThPNU9BTExNcVJBN0VH?=
+ =?utf-8?B?L3kxRG5kQTRJUGNHMllDKzVMcU5qK1MrakNrSWdQM1dlYjB6NVZqTERXNlBk?=
+ =?utf-8?B?NFB5ZlB2SXhIWis0aUo5azljQkVzaC9TNWdDUlRTVGluTVBlZUJkSTdjS0dL?=
+ =?utf-8?B?SGpMOUxMd1hIaUVKd2RjaDFDakhVT2s0cnFTOGlxVUUyY0Y4ODZkNk9oQW9i?=
+ =?utf-8?B?SlNtVmVhWjAweFFJbmo1cVF1OWhObG44OXRWNkh6NTNOVmIrb1dMU2lnKzNh?=
+ =?utf-8?B?akNmaU05RXU1aS8xZDFFM3pDSTNkeTV4T1JZNkNCbks5V0duMUkyYWw5ZnVs?=
+ =?utf-8?B?ZVdWSmdqRU9MMTVUQzFQVm1nVzg1ZVh4TUR6a1FMaTNxNzgzWVMyeFdrL2hV?=
+ =?utf-8?B?MUNrSkU1UUVXM096R0ZaL1V1YmN0TVhIUnZTMVlpUlZyMkZ5cENkSGhxV1dz?=
+ =?utf-8?B?VlM1c2hUdDB2V3dpN1B5aVZ1S1BzaTF3czFOSkREU3YwZGtBamNXa1F6dkZ0?=
+ =?utf-8?B?RTgxUmxUblFMMUhCejhhQlhBVStuUjNseG1va0JMdjBycGh4QXZ3cWhiVFA1?=
+ =?utf-8?B?NEtzTDh5M1lXZkxUY3AxU3M1ZElrcnhOQm0xVVlwcmUzWml4OVdnQXd2Tlh0?=
+ =?utf-8?B?S3pRdVVUYVRKek05Z2VGUlNFQjdRS1JYY3VVZXR3Vml6WjNOQ21pTnVyK1JY?=
+ =?utf-8?B?d2N0VEZKL0ZTQkFFNVZuNk11OEdtYXNRalNzRVdIWklpNWtqNGQ5V0Y3Q2RE?=
+ =?utf-8?B?WlRpWjN1cHh2WXgweGQ0YjB2bk41azBFWUhralZrWE9pSk5ZSGhYeC9sRmRV?=
+ =?utf-8?B?bWt5YkxCbDdFcWt5YWdkVFY0bEdnOTV4Z0JzM2hDc1gyb3NUZzhjZEtoVyt0?=
+ =?utf-8?B?MXJYTTc1Vk1aZUVXMUlSU2xkbVlZWWdzTnUyQUkxa3RlNklLY2E2aWhNaVZV?=
+ =?utf-8?B?ZFhOQUtNWFMwQ3dHdGRobE9oemllSjE3UWZyZTB6NGpEanZHTG9xMm50MnBu?=
+ =?utf-8?B?N1dLZDlQZTNDRktHQy9FQkUyTVJQOWx1blFpd2lYVzA0elpjZitRTWYyVDdj?=
+ =?utf-8?B?NkxjcW1JZGtscFpwMHBvZ0ltTHk2djk4T3ZzNGNBVUlYVzNNVExzTE00Qm1v?=
+ =?utf-8?B?ZW0weDdHNGZwdkh1REZTUG9LeU5XY3BnQ3J6QkxMcUIzbjc5YnIxYUdxanRp?=
+ =?utf-8?B?QytCZlhDb0tpRkZyMmw3UlQxU0JraExEVXhaeHNLYTFFZ3ZUSTdLWXhrVFN4?=
+ =?utf-8?B?NkZjdWJ5UXFyNE4vSDFpQ2N4cGNtYkh2cllydEVPYW5xbzFTbDFKU2QxekRQ?=
+ =?utf-8?B?NzZzdm9sNUprbDYrMUx6YWx4eW84RENtTThSa0g0UVZqT0h4Umo2OVBySFJs?=
+ =?utf-8?B?bnRPelBLMXBmSjJZK3VSekNBSmtWQlA1cmFmZ3lmNzA1RlExUURwbFk0WnhR?=
+ =?utf-8?B?ZkRsY251NlZzaXFRZ1J3K1F1WWRCU0VWbCtyclk4VmhCVTB4WTN2c0dCQkdE?=
+ =?utf-8?B?Ymk2MmE3dW92YnZXWkE3ZE5tZFE3RkFwTVJnUXlpdDl6TitPQm9vYUt1a1Nz?=
+ =?utf-8?B?dkNxeERVT2d5N1dpOERwZVVPRUVWM1JHQW9lam1kK2tYa255UjlsaEE1SDc1?=
+ =?utf-8?B?WE5LTWZ2cC9yNkVwcGlWQmY1VjFXZDBWUVRWTWZSRUJVMVlKMmgxSW5oY3VB?=
+ =?utf-8?B?LzhLVTRvOURYMW1hOWxtNjF4UVlkcnVOanJCc0NTdVBFbkxwQkdHWHhtVFVQ?=
+ =?utf-8?B?Y1laaElIbWlXTEhvcWc5RER0bmw1QU10WVBiZjhCK3dtbEQvOXZLN09zU3JC?=
+ =?utf-8?B?cHQvNnB2WUQvT2ptRERQTXMrM3gzR2w2OXF4UVZlY1FlL1pCSWRkVHBjSVl5?=
+ =?utf-8?B?eU1rdXV2OFlPeGtiL0Y4T1phUmlXTUErTVlzZ2lIV24zVjRxM2V5bE45OXBG?=
+ =?utf-8?B?MGJoN1lWOElGbDJJNFlOYjE5S292TE8wcVdvTlh0Zm5GN2RML1IzZ2ZYaEx4?=
+ =?utf-8?B?OERXQVB5Q29qY082akRrcFR1eDJoNGl1UW9wamgxeWlOWno3T2Erd2JFN2FX?=
+ =?utf-8?B?aFAxY0ZtYS9ZeW1tUnJONElKZWxXOUFmb2k3M2Rxa0VobGpIUjBrajdVeVNn?=
+ =?utf-8?B?SXdYcUNpMzJnTWxRY29VYjhKck1HUGRkdWZNOXhMNjVRNGtsaVVkRjNqVXFG?=
+ =?utf-8?B?YktMcDlqNEsrMzduMDVUYkkxMkxaak4vYXpsN21aNThWNkE5U2prdDU3aFRC?=
+ =?utf-8?B?cmgwMWUvUXZtVjJqUGZOSjNUTXA1T29MRG5QTFJFTS9YWUpaZTBoY05FOVdF?=
+ =?utf-8?B?NGVxMDlSQT09?=
+MIME-Version: 1.0
+
+------=_NextPart_334_3676_16A65A77.7892570E
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Having trouble viewing this email?=C2=A0View it as a webpage [ https://co=
+ntent.govdelivery.com/accounts/NYTAX/bulletins/348815f ].
+
+=20
+=20
+=20
+=20
+
+NYS DTF logo=20
+=20
+=20
+=20
+
+=C2=A0
+
+3, 2, 1, liftoff!
+
+Tax Season is officially open. Check out our tax resources to assist you =
+along the way.
+
+  Shuttle taking off=20
+
+Free filing resources
+
+Using filing resources from the Tax Department can make completing and su=
+bmitting your return on time fast, secure, and even free, if you qualify.=
+
+
+You may qualify to use Free File software [ https://www.tax.ny.gov/pit/ef=
+ile/default.htm ] if, for 2022:
+
+
+  * your federal adjusted gross income (AGI) is=C2=A0$41,000 or less, reg=
+ardless of your age;=20
+  * your federal AGI is $60,000 or less and you are=C2=A057 years old or =
+younger; or=20
+  * your federal AGI is $73,000 or less=C2=A0and=C2=A0you served as Activ=
+e Duty Military (including Reservists and National Guard).=20
+
+If you don=E2=80=99t qualify for Free File, you still have choices that m=
+ay for work you! Visit Other e-file options [ https://www.tax.ny.gov/pit/=
+efile/other-efile-options.htm ] to learn more.
+
+For all your filing resources:
+
+*Visit filing resource center* [ https://www.tax.ny.gov/pit/file/ ]=20
+=20
+________________________________________________________________________
+
+More resources to assist you
+
+  * *Request electronic communications [ #request ]*
+Sign up to receive notifications about your returns and refunds.
+
+
+  * *Gather your documentation [ #gather ]*
+Learn what information you=E2=80=99ll need to complete your return.
+
+
+  * *Understand your payment options [ #pay ]*
+Need to pay? Use your Online Services account.
+
+
+  * *Check your refund status [ #refund ]*
+Use our online tool to check your refund status=E2=80=94anywhere, any tim=
+e.
+
+
+  * *Respond to a letter [ #letter ]*
+The fastest way to respond is online.
+
+
+  * *Offer feedback [ #feedback ]*
+We=E2=80=99d love to hear from you!=20
+________________________________________________________________________
+
+Get ready to file
+Woman on couch looking at laptop
+Request electronic communications
+
+Communicate with the Tax Department using=C2=A0Online Services. It's fast=
+ and secure!
+
+With an Online Services account, you can:
+
+
+  * confirm that we received your return, and=20
+  * sign up to receive letters or notices about your return=E2=80=94inclu=
+ding your*=C2=A0refund issue date*=E2=80=94electronically.=20
+
+*Request communications* [ https://www.tax.ny.gov/e-services/otc/emailsig=
+nup.htm ]=20
+=20
+
+Espa=C3=B1ol [ https://www.tax.ny.gov/language/espanol/ind/refund-spa.htm=
+#request ]=C2=A0|=C2=A0=E4=B8=AD=E6=96=87=E7=89=88 [ https://www.tax.ny.g=
+ov/language/chinese/ind/refund-chi.htm#request ]=C2=A0|=C2=A0=D0=A0=D1=83=
+=D1=81=D1=81=D0=BA=D0=B8=D0=B9 [ https://www.tax.ny.gov/language/russian/=
+ind/refund-rus.htm#request ]=C2=A0|=C2=A0=E0=A6=AC=E0=A6=BE=E0=A6=99=E0=A6=
+=BE=E0=A6=B2=E0=A6=BF [ https://www.tax.ny.gov/language/bengali/ind/refun=
+d-ben.htm#request ]=C2=A0|=C2=A0=D7=99=D7=99=D7=93=D7=99=D7=A9 [ https://=
+www.tax.ny.gov/language/yiddish/ind/refund-yid.htm#request ]=C2=A0|=C2=A0=
+Krey=C3=B2l ayisyen=C2=A0 [ https://www.tax.ny.gov/language/hcreole/ind/r=
+efund-hai.htm#request ]|=C2=A0=ED=95=9C=EA=B5=AD=EC=96=B4 [ https://www.t=
+ax.ny.gov/language/korean/ind/refund-kor.htm#request ] |=C2=A0Italiano [ =
+https://www.tax.ny.gov/language/italian/ind/refund-ita.htm#request ]=C2=A0=
+|=C2=A0=D8=B9=D8=B1=D8=A8=D9=89 [ https://www.tax.ny.gov/language/arabic/=
+ind/refund-ara.htm#request ]=C2=A0|=C2=A0Polski [ https://www.tax.ny.gov/=
+language/polish/ind/refund-pol.htm#request ]
+
+How else can you stay in touch? Check us out on=C2=A0Facebook [ https://w=
+ww.facebook.com/NYSTaxDept ]=C2=A0and=C2=A0Twitter [ https://twitter.com/=
+NYSTaxDept ].
+
+And if you haven't already, subscribe to=C2=A0"Tax Tips for Individuals [=
+ https://public.govdelivery.com/accounts/NYTAX/subscriber/new?topic_id=3D=
+NYTAX_75 ]"=C2=A0and=C2=A0"Tax Tips for Property Owners [ https://public.=
+govdelivery.com/accounts/NYTAX/subscriber/new?topic_id=3DNYTAX_99 ]".
+
+________________________________________________________________________
+
+Gather your information and documentation
+
+If you received=C2=A0unemployment compensation, request your=C2=A0Form 10=
+99-G [ https://dol.ny.gov/unemployment/1099-g-tax-form ]=C2=A0from the De=
+partment of Labor. Remember to include the full amount on your New York S=
+tate personal income tax return.
+
+Log in [ https://www.tax.ny.gov/online/ ]=C2=A0to your Online Services ac=
+count to=C2=A0verify the amounts of any extension or estimated tax paymen=
+ts [ https://www.tax.ny.gov/pit/estimated_tax/annual_estimated_tax_accoun=
+t.htm ]=C2=A0you've made.
+
+Review our=C2=A0video tutorials [ https://www.tax.ny.gov/pit/efile/filing=
+-checklist.htm#videos ]=C2=A0to help you e-file your return on your own.
+
+Request=C2=A0direct deposit [ https://www.tax.ny.gov/pit/file/direct_depo=
+sit_of_your_income_tax_refund.htm ]=E2=80=94it's the easiest, fastest way=
+ to get your refund.
+
+*Gather information* [ https://www.tax.ny.gov/pit/efile/filing-checklist.=
+htm#docs ]=20
+=20
+________________________________________________________________________
+
+*Understand your payment options*
+
+If you owe a balance on your New York State income tax return, you can pa=
+y=E2=80=94or schedule a payment for=E2=80=94any day up to and including t=
+he April 18 due date.
+
+You can pay directly from your bank account for free, or with your credit=
+ card for a fee.
+
+*Pay tax owed with return* [ https://www.tax.ny.gov/pay/ind/pay-income-ta=
+x-online.htm ]=20
+=20
+________________________________________________________________________
+
+After you file
+Woman in wheelchair and man looking at laptop
+Check your refund status
+
+Get the most up-to-date information about your refund and return:
+
+
+  * online, using our=C2=A0Check your refund status tool [ https://www.ta=
+x.ny.gov/pit/file/refund.htm ], or=20
+  * by phone, at 518-457-5149 (para espa=C3=B1ol, oprima el dos).=20
+
+If you need help finding your refund amount, visit=C2=A0Refund amount req=
+uested [ https://www.tax.ny.gov/e-services/pris/refund-requested.htm ]=C2=
+=A0for troubleshooting tips.=C2=A0
+
+For answers to some of your most common questions, visit=C2=A0Understandi=
+ng your refund status [ https://www.tax.ny.gov/e-services/pris/understand=
+ing-refund-status.htm ]=C2=A0(Espa=C3=B1ol [ https://www.tax.ny.gov/langu=
+age/espanol/ind/understanding-refund-status-spa.htm ]=C2=A0|=C2=A0=E4=B8=AD=
+=E6=96=87=E7=89=88 [ https://www.tax.ny.gov/language/chinese/ind/understa=
+nding-refund-status-chi.htm ]=C2=A0|=C2=A0=D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=
+=B8=D0=B9 [ https://www.tax.ny.gov/language/russian/ind/understanding-ref=
+und-status-rus.htm ]=C2=A0|=C2=A0=E0=A6=AC=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=
+=B2=E0=A6=BF [ https://www.tax.ny.gov/language/bengali/ind/understanding-=
+refund-status-ben.htm ]=C2=A0|=C2=A0Krey=C3=B2l ayisyen [ https://www.tax=
+.ny.gov/language/hcreole/ind/understanding-refund-status-hai.htm ]=C2=A0|=
+=C2=A0=ED=95=9C=EA=B5=AD=EC=96=B4 [ https://www.tax.ny.gov/language/korea=
+n/ind/understanding-refund-status-kor.htm ]).
+
+*Check refund status* [ https://www.tax.ny.gov/pit/file/refund.htm ]=20
+=20
+
+Espa=C3=B1ol [ https://www.tax.ny.gov/language/espanol/ind/refund-spa.htm=
+ ]=C2=A0|=C2=A0=E4=B8=AD=E6=96=87=E7=89=88 [ https://www.tax.ny.gov/langu=
+age/chinese/ind/refund-chi.htm ]=C2=A0|=C2=A0=D0=A0=D1=83=D1=81=D1=81=D0=BA=
+=D0=B8=D0=B9 [ https://www.tax.ny.gov/language/russian/ind/refund-rus.htm=
+ ]=C2=A0|=C2=A0=E0=A6=AC=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=B2=E0=A6=BF [ h=
+ttps://www.tax.ny.gov/language/bengali/ind/refund-ben.htm ]=C2=A0|=C2=A0=D7=
+=99=D7=99=D7=93=D7=99=D7=A9 [ https://www.tax.ny.gov/language/yiddish/ind=
+/refund-yid.htm ]=C2=A0|=C2=A0Krey=C3=B2l ayisyen [ https://www.tax.ny.go=
+v/language/hcreole/ind/refund-hai.htm ] |=C2=A0=ED=95=9C=EA=B5=AD=EC=96=B4=
+ [ https://www.tax.ny.gov/language/korean/ind/refund-kor.htm ]=C2=A0| =C2=
+=A0Italiano [ https://www.tax.ny.gov/language/italian/ind/refund-ita.htm =
+]=C2=A0|=C2=A0=D8=B9=D8=B1=D8=A8=D9=89 [ https://www.tax.ny.gov/language/=
+arabic/ind/refund-ara.htm ]=C2=A0|=C2=A0Polski [ https://www.tax.ny.gov/l=
+anguage/polish/ind/refund-pol.htm ]
+
+________________________________________________________________________
+
+*Respond to a letter*
+
+If we send you a letter about your return, respond online. It's the faste=
+st way to provide a response or send us documentation.
+
+Review our=C2=A0checklists of acceptable proof [ https://www.tax.ny.gov/p=
+it/letters/recordkeeping.htm#checklists ]=C2=A0first, to ensure your resp=
+onse is complete.
+
+*Respond to a letter* [ https://www.tax.ny.gov/pit/letters/ ]=20
+=20
+
+Espa=C3=B1ol [ https://www.tax.ny.gov/language/espanol/ind/respond-to-you=
+r-letter-spa.htm ]=C2=A0|=C2=A0=E4=B8=AD=E6=96=87=E7=89=88 [ https://www.=
+tax.ny.gov/language/chinese/ind/respond-to-your-letter-chi.htm ]=C2=A0|=C2=
+=A0=D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9 [ https://www.tax.ny.gov/la=
+nguage/russian/ind/respond-to-your-letter-rus.htm ]=C2=A0|=C2=A0=E0=A6=AC=
+=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=B2=E0=A6=BF [ https://www.tax.ny.gov/la=
+nguage/bengali/ind/respond-to-your-letter-ben.htm ]=C2=A0|=C2=A0=D7=99=D7=
+=99=D7=93=D7=99=D7=A9 [ https://www.tax.ny.gov/language/yiddish/ind/respo=
+nd-to-your-letter-yid.htm ]=C2=A0|=C2=A0Krey=C3=B2l ayisyen [ https://www=
+.tax.ny.gov/language/hcreole/ind/respond-to-your-letter-hai.htm ]=C2=A0| =
+=ED=95=9C=EA=B5=AD=EC=96=B4 [ https://www.tax.ny.gov/language/korean/ind/=
+respond-to-your-letter-kor.htm ] |=C2=A0 =C2=A0Italiano [ https://www.tax=
+.ny.gov/language/italian/ind/respond-to-your-letter-ita.htm ]=C2=A0|=C2=A0=
+=D8=B9=D8=B1=D8=A8=D9=89 [ https://www.tax.ny.gov/language/arabic/ind/res=
+pond-to-your-letter-ara.htm ]=C2=A0|=C2=A0Polski [ https://www.tax.ny.gov=
+/language/polish/ind/respond-to-your-letter-pol.htm ]=C2=A0|=C2=A0French =
+[ https://www.tax.ny.gov/language/french/ind/respond-to-your-letter-fre.h=
+tm ]=C2=A0|=C2=A0Portuguese [ https://www.tax.ny.gov/language/portuguese/=
+ind/respond-to-your-letter-por.htm ]
+
+________________________________________________________________________
+
+Any time
+Man with child on back looking at computer
+Offer feedback
+
+Let us know what you think using our=C2=A0Taxpayer Experience survey [ ht=
+tps://tax.custhelp.com/ci/documents/detail/5/260/12/18d7328fc7117f798bbc4=
+470ea5929183e6a06a4 ]. Your responses help us develop the best-possible r=
+esources.
+
+=20
+=20
+=20
+=20
+ =20
+=20
+
+*The COVID-19 vaccine is here!* Learn more [ https://www.ny.gov/vaccine ]=
+ or check your eligibility [ https://am-i-eligible.covid19vaccine.health.=
+ny.gov/ ].
+
+=20
+
+*Are you registered to vote?* Register to vote online today [ http://www.=
+ny.gov/services/register-vote ].
+
+=20
+
+Moved recently? Update your information [ https://www.elections.ny.gov/Vo=
+tingRegister.html#VoteRegChange ] with the NYS Board of Elections.
+
+=20
+
+Not sure if you're registered to vote? Search your voter registration sta=
+tus [ https://voterlookup.elections.ny.gov/ ].
+
+=20
+
+*Become an organ donor* =E2=80=94 enroll today [ https://donatelife.ny.go=
+v/register/ ]!
+
+ ________________________________________________________________________=
+
+
+=20
+Espa=C3=B1ol [ https://www.tax.ny.gov/language/espanol/ ] =E4=B8=AD=E6=96=
+=87=E7=89=88 [ https://www.tax.ny.gov/language/chinese/ ] =D0=A0=D1=83=D1=
+=81=D1=81=D0=BA=D0=B8=D0=B9 [ https://www.tax.ny.gov/language/russian/ ] =
+=E0=A6=AC=E0=A6=BE=E0=A6=82=E0=A6=B2=E0=A6=BE [ https://www.tax.ny.gov/la=
+nguage/bengali/ ] =D7=99=D7=99=D7=93=D7=99=D7=A9 [ https://www.tax.ny.gov=
+/language/yiddish/ ] Krey=C3=B2l ayisyen [ https://www.tax.ny.gov/languag=
+e/hcreole/ ] =ED=95=9C=EA=B5=AD=EC=96=B4 [ https://www.tax.ny.gov/languag=
+e/korean/ ] Italiano [ https://www.tax.ny.gov/language/italian/ ] =D8=B9=D8=
+=B1=D8=A8=D9=89 [ https://www.tax.ny.gov/language/arabic/ ] Polski [ http=
+s://www.tax.ny.gov/language/polish/ ]=20
+ ________________________________________________________________________=
+
+
+=20
+
+Connect with us: =C2=A0Facebook [ https://www.facebook.com/NYSTaxDept ] =C2=
+=A0|=C2=A0 Twitter [ https://twitter.com/NYSTaxDept ] =C2=A0|=C2=A0 YouTu=
+be [ http://www.youtube.com/user/NYSTaxDepartment ]
+
+=20
+
+Want to make a difference? Join Team Tax [ https://www.tax.ny.gov/about/e=
+mpopps/ ]!
+
+=20
+=20
+=20
+
+Unsubscribe / Update preferences [ https://public.govdelivery.com/account=
+s/NYTAX/subscribers/new?%20%20preferences=3Dtrue ]=20
+
+=20
+
+=20
+
+This email was sent to ljaust7@hotmail.com <ljaust7%40hotmail.com> using =
+GovDelivery Communications Cloud on behalf of: New York State Department =
+of Taxation and Finance GovDelivery logo [ https://subscriberhelp.granicu=
+s.com/ ]
+=0A
+------=_NextPart_334_3676_16A65A77.7892570E
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xml:lang=3D"en" lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>    NYS Tax Department: Find free income tax resources
+</title>
+   =20
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+      table {border-collapse: collapse;}
+  </style>
+  <![endif]-->
+<style type=3D"text/css">
+  /* Make columns expand to 100% on small screens */
+  @media only screen and (max-width: 480px) {
+    .abe-column-block {
+      min-width: 100%;
+    }
+  }
+  /* Disables Apple clients adding blue color and underline to links and ot=
+her text */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+
+
+</head>
+<body style=3D"margin:0;padding:0;margin:0;padding:0;width:100% !important;=
+">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top"></=
+a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+ =20
+
+
+
+ =20
+  <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" al=
+ign=3D"center" class=3D"gd_tbl_wrap"><tr><td style=3D"margin: 0; padding: 0=
+; width: 100% !important">
+<table id=3D"flexible-abe-main-table" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; padding-top: 20px; padding-bottom: 20px;">
+  <tr>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+    <!-- centered column -->
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" data=
+-block-id=3D"86796032">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+ax-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-6fba9cc3-2542-4dc9-842e-49edbcc41a14" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFFFF=
+F">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0; -=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-e34ae9f5-a3d0-437=
+c-92eb-8614c48b32fb-outlook-only" class=3D"abe-column-block-outlook-only" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-e34ae9f5-a3d0-437c-92eb-8614c48b32fb" class=3D"=
+abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"867=
+96033" style=3D"width: 100%; box-sizing: border-box; display: inline-block;=
+ font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; overflow=
+-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-e34ae9f=
+5-a3d0-437c-92eb-8614c48b32fb-padding" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding: 15px; border: none;"><p style=3D"text-align: center; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; line-height: 1.4; font-s=
+ize: 11px; font-family: helvetica; margin: 0 0 0px;" align=3D"center">Havin=
+g trouble viewing this email?&nbsp;<a href=3D"https://subscribe.tax.ny.gov/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL2NvbnR=
+lbnQuZ292ZGVsaXZlcnkuY29tL2FjY291bnRzL05ZVEFYL2J1bGxldGlucy8zNDg4MTVmIn0.fE=
+Ur8kItBgOPAem20IGmLFiNP4_GsPFXjp7bbqr096s/s/2171766886/br/155112848328-l" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: =
+#007680;">View it as a webpage</a>.</p></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" data=
+-block-id=3D"86796035">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+ax-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-401f9210-0581-4bd0-a907-161604b7423c" class=
+=3D"abe-section-row" style=3D"background-color: #0B5D67;" bgcolor=3D"#0B5D6=
+7">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0; -=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-1c89ebb7-a97b-469=
+1-92b8-ec5157d775ae-outlook-only" class=3D"abe-column-block-outlook-only" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-1c89ebb7-a97b-4691-92b8-ec5157d775ae" class=3D"=
+abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"867=
+96036" style=3D"width: 100%; box-sizing: border-box; display: inline-block;=
+ font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; overflow=
+-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-1c89ebb=
+7-a97b-4691-92b8-ec5157d775ae-padding" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding: 15px; border: none;"><img class=3D"govd_template_image" src=3D=
+"https://content.govdelivery.com/attachments/fancy_images/NYTAX/2021/11/520=
+5620/nyslockup-transparent_original.png" style=3D"width: 316px; height: aut=
+o; -ms-interpolation-mode: bicubic; line-height: 1; outline: none; text-dec=
+oration: none; max-width: 100%; border: none;" alt=3D"NYS DTF logo" width=
+=3D"316" height=3D"64"></td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0">
+    <tr>
+      <td>
+<![endif]-->
+<div class=3D"abe-section-block" data-block-type=3D"FancyBlockSection" data=
+-block-id=3D"86796041">
+  <table class=3D"abe-section-table" width=3D"100%" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+ax-width: 600px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr id=3D"abe-section-row-c4cfca51-d275-4fa8-81fe-c54dc0e98e22" class=
+=3D"abe-section-row" style=3D"background-color: #FFFFFF;" bgcolor=3D"#FFFFF=
+F">
+      <td style=3D"text-align: center; vertical-align: top; font-size: 0; -=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;" align=3D"center" valign=3D"top">
+        <!--[if (gte mso 9)|(IE)]>
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  <td width=3D"600" valign=3D"top" id=3D"abe-column-block-e1436a34-59a5-455=
+8-8663-80ef578fb51e-outlook-only" class=3D"abe-column-block-outlook-only" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;">
+<![endif]-->
+<div id=3D"abe-column-block-e1436a34-59a5-4558-8663-80ef578fb51e" class=3D"=
+abe-column-block" data-block-type=3D"FancyBlockColumn" data-block-id=3D"867=
+96042" style=3D"width: 100%; box-sizing: border-box; display: inline-block;=
+ font-size: 16px; vertical-align: top;">
+  <table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"table-layout: fixed; overflow=
+-wrap: break-word; word-wrap: break-word; text-align: left; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;">
+    <tr>
+      <td class=3D"abe-column-block-padding" id=3D"abe-column-block-e1436a3=
+4-59a5-4558-8663-80ef578fb51e-padding" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding: 15px 0px 5px 15px; border: none;">
+<table class=3D"gd_combo_table" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; table-layout: fixed; overflow-wrap: break-word;">
+  <tr class=3D"gd_combo_first_text" style=3D"vertical-align: top;">
+    <td class=3D"gd_combo_text_cell" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;">
+<p style=3D"text-align: left; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; line-height: 1.4; font-family: helvetica; font-size: 15px; m=
+argin: 0 0 15px;" align=3D"left">&nbsp;</p>
+<h1 style=3D"text-align: left; line-height: 1.2; font-size: 24px; color: #0=
+0353A; font-family: arial, helvetica, sans-serif; margin: 0 0 20px;" align=
+=3D"left">3, 2, 1, liftoff!</h1>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Tax Season is officially open. Check out our tax resources to assist you al=
+ong the way.</p>
+</td>
+<td class=3D"gd_combo_spacer" width=3D"4" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; width: 8px;"></td>
+<td class=3D"gd_combo_image_cell" width=3D"377" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"><img class=3D"govd_template_image" src=3D"https://content.gov=
+delivery.com/attachments/fancy_images/NYTAX/2023/02/7142665/shuttle600x400_=
+original.jpg" style=3D"width: 377px; height: auto; -ms-interpolation-mode: =
+bicubic; line-height: 1; outline: none; text-decoration: none; max-width: 1=
+00%; border: none;" alt=3D"Shuttle taking off" width=3D"377" height=3D"176"=
+></td>
+  </tr>
+</table>
+<h2 style=3D"line-height: 1.2; color: #555555; font-family: arial, helvetic=
+a, sans-serif; font-size: 20px; margin: 0.83em 0 18px;">Free filing resourc=
+es</h2>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Using filing resources from the Tax Department can make completing and subm=
+itting your return on time fast, secure, and even free, if you qualify.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+You may qualify to use <a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxl=
+dGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ29=
+2L3BpdC9lZmlsZS9kZWZhdWx0Lmh0bSJ9.clOub3qYuncGw9_fPA4ZWchmRPuwKqimMDILgE_mP=
+-o/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007=
+680;">Free File software</a> if, for 2022:</p>
+<ul style=3D"margin-top: 0px; margin-bottom: 15px;">
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-top: 0px;">=
+your federal adjusted gross income (AGI) is&nbsp;$41,000 or less, regardles=
+s of your age;</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px;">your federal AGI =
+is $60,000 or less and you are&nbsp;57 years old or younger; or</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom: 15p=
+x;">your federal AGI is $73,000 or less&nbsp;and&nbsp;you served as Active =
+Duty Military (including Reservists and National Guard).</li>
+</ul>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+If you don=E2=80=99t qualify for Free File, you still have choices that may=
+ for work you! Visit <a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJI=
+UzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldG=
+luX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L=
+3BpdC9lZmlsZS9vdGhlci1lZmlsZS1vcHRpb25zLmh0bSJ9.eYqjZHHKevlEuxIIe6U04kjFN6h=
+TSDkP2mGaRjsb80o/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"n=
+oopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; color: #007680;">Other e-file options</a> to learn more.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+For all your filing resources:</p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 1=
+5px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto;" align=3D"cen=
+ter"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; background-color: #0B5E68; border-radius: 5px; text-align: center; d=
+isplay: inline-block; overflow-wrap: break-word; word-wrap: break-word; -ms=
+-word-break: break-all; word-break: break-word; padding: 10px; border: none=
+;" align=3D"center" bgcolor=3D"#0B5E68"><a href=3D"https://subscribe.tax.ny=
+.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3=
+d3dy50YXgubnkuZ292L3BpdC9maWxlLyJ9.gDWbgXiMaFa4wQTuvwdXU-7oaJw3VdkmUrNjG7ZU=
+bGE/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener noref=
+errer" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ text-decoration: none !important;"><strong style=3D"font-family: helvetica=
+; font-size: 15px; color: #FFFFFF; text-decoration: none;">Visit filing res=
+ource center</strong></a></td></tr></tbody></table></td></tr></tbody></tabl=
+e>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h2 style=3D"line-height: 1.2; color: #555555; font-family: arial, helvetic=
+a, sans-serif; font-size: 20px; margin: 0.83em 0 18px;">More resources to a=
+ssist you</h2>
+<ul style=3D"margin-top: 0px; margin-bottom: 15px;">
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-top: 0px;">
+<strong><a href=3D"#request" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; color: #007680;">Request electronic communications</=
+a></strong><br>Sign up to receive notifications about your returns and refu=
+nds.<br><br>
+</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px;">
+<strong><a href=3D"#gather" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; color: #007680;">Gather your documentation</a></stron=
+g><br>Learn what information you=E2=80=99ll need to complete your return.<b=
+r><br>
+</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px;">
+<strong><a href=3D"#pay" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; color: #007680;">Understand your payment options</a></st=
+rong><br>Need to pay? Use your Online Services account.<br><br>
+</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px;">
+<strong><a href=3D"#refund" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; color: #007680;">Check your refund status</a></strong=
+><br>Use our online tool to check your refund status=E2=80=94anywhere, any =
+time.<br><br>
+</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px;">
+<strong><a href=3D"#letter" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; color: #007680;">Respond to a letter</a></strong><br>=
+The fastest way to respond is online.<br><br>
+</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom: 15p=
+x;">
+<strong><a href=3D"#feedback" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; color: #007680;">Offer feedback</a></strong><br>We=
+=E2=80=99d love to hear from you!</li>
+</ul>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h2 style=3D"line-height: 1.2; color: #555555; font-family: arial, helvetic=
+a, sans-serif; font-size: 20px; margin: 0.83em 0 18px;">Get ready to file</=
+h2>
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com/a=
+ttachments/fancy_images/NYTAX/2021/10/5012367/card-get-started_original.jpg=
+" style=3D"width: 585px; height: auto; -ms-interpolation-mode: bicubic; lin=
+e-height: 1; outline: none; text-decoration: none; max-width: 100%; border:=
+ none;" alt=3D"Woman on couch looking at laptop" width=3D"585" height=3D"29=
+3"><h3 style=3D"line-height: 1.2; color: #007680; font-family: arial, helve=
+tica, sans-serif; font-size: 18px; margin: 1em 0 17px;">
+<a id=3D"request" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; color: #007680;" name=3D"request"></a>Request electronic commun=
+ications</h3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Communicate with the Tax Department using&nbsp;Online Services. It's fast a=
+nd secure!</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+With an Online Services account, you can:</p>
+<ul style=3D"margin-top: 0px; margin-bottom: 15px;">
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-top: 0px;">=
+confirm that we received your return, and</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom: 15p=
+x;">sign up to receive letters or notices about your return=E2=80=94includi=
+ng your<strong>&nbsp;refund issue date</strong>=E2=80=94electronically.</li=
+>
+</ul>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 1=
+5px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto;" align=3D"cen=
+ter"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; background-color: #0B5E68; border-radius: 5px; text-align: center; d=
+isplay: inline-block; overflow-wrap: break-word; word-wrap: break-word; -ms=
+-word-break: break-all; word-break: break-word; padding: 10px; border: none=
+;" align=3D"center" bgcolor=3D"#0B5E68"><a href=3D"https://subscribe.tax.ny=
+.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDQsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3=
+d3dy50YXgubnkuZ292L2Utc2VydmljZXMvb3RjL2VtYWlsc2lnbnVwLmh0bSJ9.PPWrWjI387B1=
+yusOfJfpScNHKW2OWg61RhAY_GkBawQ/s/2171766886/br/155112848328-l" target=3D"_=
+blank" rel=3D"noopener noreferrer" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; text-decoration: none !important;"><strong sty=
+le=3D"font-family: helvetica; font-size: 15px; color: #FFFFFF; text-decorat=
+ion: none;">Request communications</strong></a></td></tr></tbody></table></=
+td></tr></tbody></table>
+<p style=3D"text-align: center; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; line-height: 1.4; font-family: helvetica; font-size: 15px;=
+ margin: 1em 0 15px;" align=3D"center"><a href=3D"https://subscribe.tax.ny.=
+gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDUsInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d=
+3dy50YXgubnkuZ292L2xhbmd1YWdlL2VzcGFub2wvaW5kL3JlZnVuZC1zcGEuaHRtI3JlcXVlc3=
+QifQ.uGveP8L2zjnbEB4azMUSTklbqUz7Mc7BTpl1CTBvX54/s/2171766886/br/1551128483=
+28-l" target=3D"_blank" title=3D"Solicite comunicaciones electr=C3=B3nicas =
+del departamento" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; color: #007680;">Espa=C3=B1ol</a>&nbsp;|&nbsp;=
+<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQ=
+uNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2NoaW5lc2=
+UvaW5kL3JlZnVuZC1jaGkuaHRtI3JlcXVlc3QifQ.r1oW6nHW3WEoteSbPuJSIDpZn6AJVdI-0T=
+nC6fuU4zU/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"=E7=94=
+=B3=E8=AB=8B=E6=94=B6=E5=88=B0=E4=BE=86=E8=87=AA=E6=A9=9F=E6=A7=8B=E7=9A=84=
+=E9=9B=BB=E5=AD=90=E6=BA=9D=E9=80=9A" rel=3D"noopener" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=E4=B8=AD=
+=E6=96=87=E7=89=88</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDcsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy5=
+0YXgubnkuZ292L2xhbmd1YWdlL3J1c3NpYW4vaW5kL3JlZnVuZC1ydXMuaHRtI3JlcXVlc3QifQ=
+.FBzYIzgiXZn5kwe5gXc4zTrtia0h-NOuyS5PAQXm2Ho/s/2171766886/br/155112848328-l=
+" target=3D"_blank" title=3D"=D0=9F=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4 =D0=
+=BD=D0=B0 =D1=8D=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=BD=D0=BD=D1=83=D1=
+=8E =D0=BA=D0=BE=D0=BC=D0=BC=D1=83=D0=BD=D0=B8=D0=BA=D0=B0=D1=86=D0=B8=D1=
+=8E" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; color: #007680;">=D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9=
+</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1=
+NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhb=
+md1YWdlL2JlbmdhbGkvaW5kL3JlZnVuZC1iZW4uaHRtI3JlcXVlc3QifQ.gSACpji4SOGVCIllN=
+Ey-TTIYDw-8ET_EGleP0Qp1bhA/s/2171766886/br/155112848328-l" target=3D"_blank=
+" title=3D"=E0=A6=AC=E0=A6=BF=E0=A6=AD=E0=A6=BE=E0=A6=97=E0=A7=87=E0=A6=B0 =
+=E0=A6=A8=E0=A6=BF=E0=A6=95=E0=A6=9F =E0=A6=87=E0=A6=B2=E0=A7=87=E0=A6=95=
+=E0=A6=9F=E0=A7=8D=E0=A6=B0=E0=A6=A8=E0=A6=BF=E0=A6=95 =E0=A6=AF=E0=A7=87=
+=E0=A6=BE=E0=A6=97=E0=A6=BE=E0=A6=AF=E0=A7=87=E0=A6=BE=E0=A6=97=E0=A7=87=E0=
+=A6=B0 =E0=A6=9C=E0=A6=A8=E0=A7=8D=E0=A6=AF =E0=A6=85=E0=A6=A8=E0=A7=81=E0=
+=A6=B0=E0=A7=87=E0=A6=BE=E0=A6=A7 =E0=A6=95=E0=A6=B0=E0=A7=81=E0=A6=A8" rel=
+=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; color: #007680;">=E0=A6=AC=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=B2=E0=
+=A6=BF</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxl=
+dGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ29=
+2L2xhbmd1YWdlL3lpZGRpc2gvaW5kL3JlZnVuZC15aWQuaHRtI3JlcXVlc3QifQ.5RlYIIofeJJ=
+QsBE0zQL8ZFsejvoYDgur19ttn7dtaQY/s/2171766886/br/155112848328-l" target=3D"=
+_blank" title=3D"=D7=91=D7=A2=D7=98=D7=9F =D7=A2=D7=9C=D7=A2=D7=A7=D7=98=D7=
+=A8=D7=90=D6=B8=D7=A0=D7=99=D7=A9=D7=A2 =D7=A7=D7=90=D6=B8=D7=9E=D7=95=D6=
+=BC=D7=A0=D7=99=D7=A7=D7=90=D6=B7=D7=A6=D7=99=D7=A2=D7=A1 =D7=A4=D6=BF=D7=
+=95=D6=BC=D7=9F =D7=93=D7=A2=D7=9D =D7=93=D7=A2=D7=A4=D6=BC=D7=90=D6=B7=D7=
+=A8=D7=98=D7=9E=D7=A2=D7=A0=D7=98" rel=3D"noopener" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=D7=99=D7=99=
+=D7=93=D7=99=D7=A9</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/=
+l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTAsInVyaSI6ImJwMjpjbGlj=
+ayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy5=
+0YXgubnkuZ292L2xhbmd1YWdlL2hjcmVvbGUvaW5kL3JlZnVuZC1oYWkuaHRtI3JlcXVlc3QifQ=
+.c0K_elUPSs9Lx8r7kmwZXjHFm2NtXAmiYH8C_EPpUEo/s/2171766886/br/155112848328-l=
+" target=3D"_blank" title=3D"Mande depatman an voye mesaj elektwonik" rel=
+=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; color: #007680;">Krey=C3=B2l ayisyen&nbsp;</a>|&nbsp;<a href=3D"htt=
+ps://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIj=
+oxMTEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiL=
+CJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2tvcmVhbi9pbmQvcmVmdW5k=
+LWtvci5odG0jcmVxdWVzdCJ9.BdhXR1FRVErYWCp2pFQV9kw1FkU9pDFZP_Aj38AZ3pU/s/2171=
+766886/br/155112848328-l" target=3D"_blank" title=3D"=EB=B6=80=EC=84=9C=EC=
+=97=90 =EC=A0=84=EC=9E=90 =ED=86=B5=EC=8B=A0 =EC=9A=94=EC=B2=AD=ED=95=98=EA=
+=B8=B0" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; color: #007680;">=ED=95=9C=EA=B5=AD=EC=96=B4</a> |&nbsp;=
+<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQ=
+uNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2l0YWxpYW=
+4vaW5kL3JlZnVuZC1pdGEuaHRtI3JlcXVlc3QifQ.KrZcQfx4RTrF7SNCWq6qwnvy_Hpa___ybx=
+Bj4kXsi0k/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"Richie=
+sta di comunicazioni in forma elettronica dal dipartimento" rel=3D"noopener=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; colo=
+r: #007680;">Italiano</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.g=
+ov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTMsInVyaSI6ImJwMjpjb=
+GljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3=
+dy50YXgubnkuZ292L2xhbmd1YWdlL2FyYWJpYy9pbmQvcmVmdW5kLWFyYS5odG0jcmVxdWVzdCJ=
+9.B1tdH6B2KRk6uTULDHFAkiJwVxHzkEV0OjmKFURirEM/s/2171766886/br/155112848328-=
+l" target=3D"_blank" title=3D"=D8=B7=D9=84=D8=A8 =D9=85=D8=B1=D8=A7=D8=B3=
+=D9=84=D8=A7=D8=AA =D8=A5=D9=84=D9=83=D8=AA=D8=B1=D9=88=D9=86=D9=8A=D8=A9 =
+=D9=85=D9=86 =D8=A7=D9=84=D8=A5=D8=AF=D8=A7=D8=B1=D8=A9" rel=3D"noopener" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: =
+#007680;">=D8=B9=D8=B1=D8=A8=D9=89</a>&nbsp;|&nbsp;<a href=3D"https://subsc=
+ribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTQsInVy=
+aSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJ=
+odHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3BvbGlzaC9pbmQvcmVmdW5kLXBvbC5odG=
+0jcmVxdWVzdCJ9.LYt18bOwxX0qwQhryu4iHryhn2CPkJbEf4oGNKJPb2I/s/2171766886/br/=
+155112848328-l" target=3D"_blank" title=3D"Wniosek o umo=C5=BCliwienie elek=
+tronicznej komunikacji z departamentem" rel=3D"noopener" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">Polski<=
+/a></p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+How else can you stay in touch? Check us out on&nbsp;<a href=3D"https://sub=
+scribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTUsIn=
+VyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiO=
+iJodHRwczovL3d3dy5mYWNlYm9vay5jb20vTllTVGF4RGVwdCJ9.MsBi4KRK0NTKtNFiuEELvQq=
+EbHY4wScbPeaHzGLELzs/s/2171766886/br/155112848328-l" target=3D"_blank" rel=
+=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; color: #007680;">Facebook</a>&nbsp;and&nbsp;<a href=3D"https://subs=
+cribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTYsInV=
+yaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOi=
+JodHRwczovL3R3aXR0ZXIuY29tL05ZU1RheERlcHQifQ.Epu2BGOhtppzBrqhL179XstChzzjnd=
+z_Jx4-r_L9uq8/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noop=
+ener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+color: #007680;">Twitter</a>.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+And if you haven't already, subscribe to&nbsp;<em><a href=3D"https://subscr=
+ibe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMTcsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJo=
+dHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvTllUQVgvc3Vic2NyaWJlci9=
+uZXc_dG9waWNfaWQ9TllUQVhfNzUifQ.o5uTmf4R5s3ogHBWbVNgKZIjsz-ORpp0b1VMUqJfAs4=
+/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007=
+680;">Tax Tips for Individuals</a></em>&nbsp;and&nbsp;<em><a href=3D"https:=
+//subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxM=
+TgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1=
+cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVyeS5jb20vYWNjb3VudHMvTllUQVgvc3Vic2N=
+yaWJlci9uZXc_dG9waWNfaWQ9TllUQVhfOTkifQ.fa1PYPKDLe2kuDR-K4vR46ktnF9PAtft9mq=
+rc7aUKik/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color=
+: #007680;">Tax Tips for Property Owners</a></em>.</p>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h3 style=3D"line-height: 1.2; color: #007680; font-family: arial, helvetic=
+a, sans-serif; font-size: 18px; margin: 1em 0 17px;">
+<a id=3D"gather" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; color: #007680;" name=3D"gather"></a>Gather your information and=
+ documentation</h3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+If you received&nbsp;unemployment compensation, request your&nbsp;<a href=
+=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMTksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMz=
+Q1NTEiLCJ1cmwiOiJodHRwczovL2RvbC5ueS5nb3YvdW5lbXBsb3ltZW50LzEwOTktZy10YXgtZ=
+m9ybSJ9.yvKfQLG1JHz99qFYTrwJeNnWLq16chKfKqV5ihyTmWI/s/2171766886/br/1551128=
+48328-l" target=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; color: #007680;">Form 1099-G</a>&nbsp=
+;from the Department of Labor. Remember to include the full amount on your =
+New York State personal income tax return.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxMjAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQ=
+uNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L29ubGluZS8ifQ.WZyzDRz=
+SbcNUKZttSFYwn6Ov0bRIicGbNZUO8hKW4sE/s/2171766886/br/155112848328-l" target=
+=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; color: #007680;">Log in</a>&nbsp;to your Online Serv=
+ices account to&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJI=
+UzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldG=
+luX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L=
+3BpdC9lc3RpbWF0ZWRfdGF4L2FubnVhbF9lc3RpbWF0ZWRfdGF4X2FjY291bnQuaHRtIn0.FPLz=
+L6qJCYQvc_FfenNOUagSvf9XIO3_9lAa7XkH0jw/s/2171766886/br/155112848328-l" tar=
+get=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; color: #007680;">verify the amounts of any extens=
+ion or estimated tax payments</a>&nbsp;you've made.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Review our&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1N=
+iJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L3BpdC=
+9lZmlsZS9maWxpbmctY2hlY2tsaXN0Lmh0bSN2aWRlb3MifQ.noMBgnD6tlQoBMNAgCER_5zkO-=
+r45RR_cHIbwyoxf24/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"=
+noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; color: #007680;">video tutorials</a>&nbsp;to help you e-file your retur=
+n on your own.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Request&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9=
+.eyJidWxsZXRpbl9saW5rX2lkIjoxMjMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIj=
+oiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L3BpdC9ma=
+WxlL2RpcmVjdF9kZXBvc2l0X29mX3lvdXJfaW5jb21lX3RheF9yZWZ1bmQuaHRtIn0.4-IJfpsh=
+bMeO-7u1BTB7GqpwTYPwsO0vtuFG0R0F4nE/s/2171766886/br/155112848328-l" target=
+=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; color: #007680;">direct deposit</a>=E2=80=94it's the=
+ easiest, fastest way to get your refund.</p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 1=
+5px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto;" align=3D"cen=
+ter"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; background-color: #0B5E68; border-radius: 5px; text-align: center; d=
+isplay: inline-block; overflow-wrap: break-word; word-wrap: break-word; -ms=
+-word-break: break-all; word-break: break-word; padding: 10px; border: none=
+;" align=3D"center" bgcolor=3D"#0B5E68"><a href=3D"https://subscribe.tax.ny=
+.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjQsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3=
+d3dy50YXgubnkuZ292L3BpdC9lZmlsZS9maWxpbmctY2hlY2tsaXN0Lmh0bSNkb2NzIn0.TPjVs=
+wzrKEbeaQ3Vsk-wey9KpE1ji2SB89DNoILH-Ag/s/2171766886/br/155112848328-l" targ=
+et=3D"_blank" rel=3D"noopener noreferrer" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; text-decoration: none !important;"><str=
+ong style=3D"font-family: helvetica; font-size: 15px; color: #FFFFFF; text-=
+decoration: none;">Gather information</strong></a></td></tr></tbody></table=
+></td></tr></tbody></table>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h3 style=3D"line-height: 1.2; color: #007680; font-family: arial, helvetic=
+a, sans-serif; font-size: 18px; margin: 1em 0 17px;"><strong><a id=3D"pay" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color:=
+ #007680;" name=3D"pay"></a>Understand your payment options</strong></h3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+If you owe a balance on your New York State income tax return, you can pay=
+=E2=80=94or schedule a payment for=E2=80=94any day up to and including the =
+April 18 due date.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+You can pay directly from your bank account for free, or with your credit c=
+ard for a fee.</p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 1=
+5px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto;" align=3D"cen=
+ter"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; background-color: #0B5E68; border-radius: 5px; text-align: center; d=
+isplay: inline-block; overflow-wrap: break-word; word-wrap: break-word; -ms=
+-word-break: break-all; word-break: break-word; padding: 10px; border: none=
+;" align=3D"center" bgcolor=3D"#0B5E68"><a href=3D"https://subscribe.tax.ny=
+.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjUsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3=
+d3dy50YXgubnkuZ292L3BheS9pbmQvcGF5LWluY29tZS10YXgtb25saW5lLmh0bSJ9.yiZM8nzW=
+aO0eqF4cHUlXhIUuzQPydbihos2oXvFE8z8/s/2171766886/br/155112848328-l" target=
+=3D"_blank" rel=3D"noopener noreferrer" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; text-decoration: none !important;"><stron=
+g style=3D"font-family: helvetica; font-size: 15px; color: #FFFFFF; text-de=
+coration: none;">Pay tax owed with return</strong></a></td></tr></tbody></t=
+able></td></tr></tbody></table>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h2 style=3D"line-height: 1.2; color: #555555; font-family: arial, helvetic=
+a, sans-serif; font-size: 20px; margin: 0.83em 0 18px;">After you file</h2>
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com/a=
+ttachments/fancy_images/NYTAX/2021/10/5012369/card-rtdn_original.jpg" style=
+=3D"width: 585px; height: auto; -ms-interpolation-mode: bicubic; line-heigh=
+t: 1; outline: none; text-decoration: none; max-width: 100%; border: none;"=
+ alt=3D"Woman in wheelchair and man looking at laptop" width=3D"585" height=
+=3D"293"><h3 style=3D"line-height: 1.2; color: #007680; font-family: arial,=
+ helvetica, sans-serif; font-size: 18px; margin: 1em 0 17px;">
+<a id=3D"refund" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; color: #007680;" name=3D"refund"></a>Check your refund status</h=
+3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Get the most up-to-date information about your refund and return:</p>
+<ul style=3D"margin-top: 0px; margin-bottom: 15px;">
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-top: 0px;">=
+online, using our&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOi=
+JIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxl=
+dGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ29=
+2L3BpdC9maWxlL3JlZnVuZC5odG0ifQ.-usDm37vWNknd4RUwD5anrQ06hl1eom3u4QB8B_EsY4=
+/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007=
+680;">Check your refund status tool</a>, or</li>
+<li style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; li=
+ne-height: 1.4; font-family: helvetica; font-size: 15px; margin-bottom: 15p=
+x;">by phone, at 518-457-5149 (para espa=C3=B1ol, oprima el dos).</li>
+</ul>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+If you need help finding your refund amount, visit&nbsp;<a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjc=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2Utc2VydmljZXMvcHJpcy9yZWZ1bmQtcmVxdWVzd=
+GVkLmh0bSJ9.W7q8JOqWNqnOExmJZlbPQgea1JhBRqj6R3Fr-c8K1MM/s/2171766886/br/155=
+112848328-l" target=3D"_blank" rel=3D"noopener" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">Refund amount re=
+quested</a>&nbsp;for troubleshooting tips.&nbsp;</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+For answers to some of your most common questions, visit&nbsp;<a href=3D"ht=
+tps://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkI=
+joxMjgsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEi=
+LCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2Utc2VydmljZXMvcHJpcy91bmRlcnN0YW5=
+kaW5nLXJlZnVuZC1zdGF0dXMuaHRtIn0.AVr8QoCWF0cwchD_jyDp7hyemOmSbEXB6NwjaHH_Np=
+A/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007=
+680;">Understanding your refund status</a>&nbsp;(<a href=3D"https://subscri=
+be.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMjksInVyaS=
+I6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJod=
+HRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2VzcGFub2wvaW5kL3VuZGVyc3RhbmRpbmct=
+cmVmdW5kLXN0YXR1cy1zcGEuaHRtIn0.JL7jted9ThuqE4ZyTIzkwiNpf1mXok1cYATDqRJBEOE=
+/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"Comprender el e=
+stado de su reembolso" rel=3D"noopener" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; color: #007680;">Espa=C3=B1ol</a>&nbsp;|&=
+nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWx=
+sZXRpbl9saW5rX2lkIjoxMzAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMz=
+AyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2Noa=
+W5lc2UvaW5kL3VuZGVyc3RhbmRpbmctcmVmdW5kLXN0YXR1cy1jaGkuaHRtIn0.EAj6gt1PxdMI=
+Ig9bhc7r8MreQaFic_ePUJuW4CrLCFk/s/2171766886/br/155112848328-l" target=3D"_=
+blank" title=3D"=E7=90=86=E8=A7=A3=E6=82=A8=E7=9A=84=E9=80=80=E7=A8=85=E7=
+=8B=80=E6=85=8B" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; color: #007680;">=E4=B8=AD=E6=96=87=E7=89=88</a=
+>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ=
+9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkI=
+joiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1=
+YWdlL3J1c3NpYW4vaW5kL3VuZGVyc3RhbmRpbmctcmVmdW5kLXN0YXR1cy1ydXMuaHRtIn0.FiO=
+rJ4K0Mvn3PWDqYOXMWsPAmACEmZQ7yrOqquab11Y/s/2171766886/br/155112848328-l" ta=
+rget=3D"_blank" title=3D"=D0=9E=D0=B1=D1=8A=D1=8F=D1=81=D0=BD=D0=B5=D0=BD=
+=D0=B8=D0=B5 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=D0=B0 =D0=BD=D0=B0=D0=BB=
+=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=
+=D0=B0=D1=82=D0=B0" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; color: #007680;">=D0=A0=D1=83=D1=81=D1=81=D0=
+=BA=D0=B8=D0=B9</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/e=
+yJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzIsInVyaSI6ImJwMjpjbGljayI=
+sImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YX=
+gubnkuZ292L2xhbmd1YWdlL2JlbmdhbGkvaW5kL3VuZGVyc3RhbmRpbmctcmVmdW5kLXN0YXR1c=
+y1iZW4uaHRtIn0.eTGy7tsT8GXjiKHJWOABBTMWtyVqQlTAPPOnRUBGC2A/s/2171766886/br/=
+155112848328-l" target=3D"_blank" title=3D"=E0=A6=86=E0=A6=AA=E0=A6=A8=E0=
+=A6=BE=E0=A6=B0 =E0=A6=B0=E0=A6=BF=E0=A6=AB=E0=A6=BE=E0=A6=A8=E0=A7=8D=E0=
+=A6=A1=E0=A7=87=E0=A6=B0 =E0=A6=B8=E0=A7=8D=E0=A6=9F=E0=A7=8D=E0=A6=AF=E0=
+=A6=BE=E0=A6=9F=E0=A6=BE=E0=A6=B8 =E0=A6=AC=E0=A7=81=E0=A6=9D=E0=A6=A4=E0=
+=A7=87 =E0=A6=AA=E0=A6=BE=E0=A6=B0=E0=A6=BE" rel=3D"noopener" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=
+=E0=A6=AC=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=B2=E0=A6=BF</a>&nbsp;|&nbsp;<a h=
+ref=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxMzMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzI=
+yMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2hjcmVvbGUvaW=
+5kL3VuZGVyc3RhbmRpbmctcmVmdW5kLXN0YXR1cy1oYWkuaHRtIn0.-RbAIdhVj3VWTU8AmFZN4=
+VB3ZQDreAllIkAyRMD6Kxw/s/2171766886/br/155112848328-l" target=3D"_blank" ti=
+tle=3D"Fason pou konprann estati ranbousman ou an" rel=3D"noopener" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007=
+680;">Krey=C3=B2l ayisyen</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.=
+ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzQsInVyaSI6ImJwM=
+jpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczov=
+L3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2tvcmVhbi9pbmQvdW5kZXJzdGFuZGluZy1yZWZ1bmQ=
+tc3RhdHVzLWtvci5odG0ifQ.ugE22LeHhHuAd1dDqssZHGmDhAmq7nS8l_hM1sEiHFY/s/21717=
+66886/br/155112848328-l" target=3D"_blank" title=3D"=ED=99=98=EA=B8=89 =EC=
+=83=81=ED=83=9C =EC=9D=B4=ED=95=B4=ED=95=98=EA=B8=B0" rel=3D"noopener" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #00=
+7680;">=ED=95=9C=EA=B5=AD=EC=96=B4</a>).</p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 1=
+5px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto;" align=3D"cen=
+ter"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; background-color: #0B5E68; border-radius: 5px; text-align: center; d=
+isplay: inline-block; overflow-wrap: break-word; word-wrap: break-word; -ms=
+-word-break: break-all; word-break: break-word; padding: 10px; border: none=
+;" align=3D"center" bgcolor=3D"#0B5E68"><a href=3D"https://subscribe.tax.ny=
+.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzUsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3=
+d3dy50YXgubnkuZ292L3BpdC9maWxlL3JlZnVuZC5odG0ifQ.Qp5maSc-ghFH3PtmsnmwOA985m=
+xf85IO1N4Oi0-4Z2w/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"=
+noopener noreferrer" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; text-decoration: none !important;"><strong style=3D"font-fam=
+ily: helvetica; font-size: 15px; color: #FFFFFF; text-decoration: none;">Ch=
+eck refund status</strong></a></td></tr></tbody></table></td></tr></tbody><=
+/table>
+<p style=3D"text-align: center; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; line-height: 1.4; font-family: helvetica; font-size: 15px;=
+ margin: 1em 0 15px;" align=3D"center"><a href=3D"https://subscribe.tax.ny.=
+gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzYsInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d=
+3dy50YXgubnkuZ292L2xhbmd1YWdlL2VzcGFub2wvaW5kL3JlZnVuZC1zcGEuaHRtIn0.t57iWE=
+WsE1lZgVc-dq0miNjg58ONrj77gPMyZUX9TwE/s/2171766886/br/155112848328-l" targe=
+t=3D"_blank" title=3D"=C2=A1Consulte el estado de su reembolso por internet=
+ en cualquier momento del d=C3=ADa!" rel=3D"noopener" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">Espa=C3=B1=
+ol</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUz=
+I1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGlu=
+X2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2x=
+hbmd1YWdlL2NoaW5lc2UvaW5kL3JlZnVuZC1jaGkuaHRtIn0.UOeS1tgmszFlL8TRwdEZ8Y075Z=
+ZsZB-ILTzDDlIc184/s/2171766886/br/155112848328-l" target=3D"_blank" title=
+=3D"=E9=9A=A8=E6=99=82=E7=B7=9A=E4=B8=8A=E6=9F=A5=E7=9C=8B=E6=82=A8=E7=9A=
+=84=E9=80=80=E7=A8=85=E7=8B=80=E6=85=8B=EF=BC=81" rel=3D"noopener" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680=
+;">=E4=B8=AD=E6=96=87=E7=89=88</a>&nbsp;|&nbsp;<a href=3D"https://subscribe=
+.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMzgsInVyaSI6=
+ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHR=
+wczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3J1c3NpYW4vaW5kL3JlZnVuZC1ydXMuaHRtIn=
+0.kktu7Mv24KwPGN3eP1jmficEFQBQSjPuRpVI95rDhIM/s/2171766886/br/155112848328-=
+l" target=3D"_blank" title=3D"=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D1=8C=D1=
+=82=D0=B5 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81 =D0=BD=D0=B0=D0=BB=D0=BE=D0=
+=B3=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=
+=82=D0=B0 =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD 24/7!" rel=3D"noopener" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #00=
+7680;">=D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9</a>&nbsp;|&nbsp;<a href=
+=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5=
+rX2lkIjoxMzksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMz=
+Q1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2JlbmdhbGkvaW5kL=
+3JlZnVuZC1iZW4uaHRtIn0.A9DAj2rf95NczmzZgw1aiAFpDJtcl0gfL5xACqaB5aQ/s/217176=
+6886/br/155112848328-l" target=3D"_blank" title=3D"=E0=A6=85=E0=A6=A8=E0=A6=
+=B2=E0=A6=BE=E0=A6=87=E0=A6=A8=E0=A7=87 24/7 =E0=A6=86=E0=A6=AA=E0=A6=A8=E0=
+=A6=BE=E0=A6=B0 =E0=A6=B0=E0=A6=BF=E0=A6=AB=E0=A6=BE=E0=A6=A8=E0=A7=8D=E0=
+=A6=A1 =E0=A6=B8=E0=A7=8D=E0=A6=9F=E0=A7=8D=E0=A6=AF=E0=A6=BE=E0=A6=9F=E0=
+=A6=BE=E0=A6=B8 =E0=A6=AA=E0=A6=B0=E0=A7=80=E0=A6=95=E0=A7=8D=E0=A6=B7=E0=
+=A6=BE =E0=A6=95=E0=A6=B0=E0=A7=81=E0=A6=A8!" rel=3D"noopener" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=
+=E0=A6=AC=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=B2=E0=A6=BF</a>&nbsp;|&nbsp;<a h=
+ref=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9s=
+aW5rX2lkIjoxNDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzI=
+yMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3lpZGRpc2gvaW=
+5kL3JlZnVuZC15aWQuaHRtIn0.5fSmIaDS_3vgnhQErWqyxexuk00rUNFwmhsf8QaP6zI/s/217=
+1766886/br/155112848328-l" target=3D"_blank" title=3D"=D7=90=D7=99=D7=91=D7=
+=A2=D7=A8=D7=A7=D7=95=D6=BC=D7=A7 =D7=90=D7=B2=D6=B7=D7=A2=D7=A8 =D7=A6=D7=
+=95=D7=A8=D7=99=D7=A7=D7=A6=D7=90=D6=B8=D7=9C=D7=9F =D7=A1=D7=98=D7=90=D6=
+=B7=D7=98=D7=95=D6=BC=D7=A1 =D7=90=D6=B8=D7=A0=D7=9C=D7=B2=D6=B7=D7=9F 24/7=
+!" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; color: #007680;">=D7=99=D7=99=D7=93=D7=99=D7=A9</a>&nbsp;|&nb=
+sp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxNDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAy=
+MjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2hjcmV=
+vbGUvaW5kL3JlZnVuZC1oYWkuaHRtIn0.2-AU5qEJ52xPNtzc378aS9U-rhrhHReE1gZvZD-6FQ=
+Q/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"Tcheke estati =
+ranbousman w lan sou ent=C3=A8n=C3=A8t 24 sou 24, 7 sou 7!" rel=3D"noopener=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; colo=
+r: #007680;">Krey=C3=B2l ayisyen</a> |&nbsp;<a href=3D"https://subscribe.ta=
+x.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDIsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwcz=
+ovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2tvcmVhbi9pbmQvcmVmdW5kLWtvci5odG0ifQ.gs=
+oq2VWXJXddDciuMfQB0tXsUeTIoGEdU-BRZ7aXysA/s/2171766886/br/155112848328-l" t=
+arget=3D"_blank" title=3D"=EC=96=B8=EC=A0=9C=EB=9D=BC=EB=8F=84 =EC=98=A8=EB=
+=9D=BC=EC=9D=B8=EC=9C=BC=EB=A1=9C =ED=99=98=EA=B8=89 =EC=83=81=ED=83=9C=EB=
+=A5=BC =ED=99=95=EC=9D=B8=ED=95=98=EC=84=B8=EC=9A=94!" rel=3D"noopener" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #0=
+07680;">=ED=95=9C=EA=B5=AD=EC=96=B4</a>&nbsp;| &nbsp;<a href=3D"https://sub=
+scribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDMsIn=
+VyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiO=
+iJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2l0YWxpYW4vaW5kL3JlZnVuZC1pdGEu=
+aHRtIn0.4apt4i0B6CrxqEZSFWt2XfdmUUjihH_20Vu0HUDAzb4/s/2171766886/br/1551128=
+48328-l" target=3D"_blank" title=3D"Controlli lo stato del suo rimborso onl=
+ine in qualsiasi momento!" rel=3D"noopener" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; color: #007680;">Italiano</a>&nbsp;|&=
+nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWx=
+sZXRpbl9saW5rX2lkIjoxNDQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMz=
+AyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2FyY=
+WJpYy9pbmQvcmVmdW5kLWFyYS5odG0ifQ.IS_8soahsV_gO-bUvGimF2W9i8Tbu8Z67ZY-YdWPn=
+-k/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"=D8=AA=D8=AD=
+=D9=82=D9=82 =D9=85=D9=86 =D8=AD=D8=A7=D9=84=D8=A9 =D8=A7=D9=84=D8=A3=D9=85=
+=D9=88=D8=A7=D9=84 =D8=A7=D9=84=D9=85=D8=B3=D8=AA=D8=B1=D8=AF=D8=A9 =D8=A7=
+=D9=84=D8=AE=D8=A7=D8=B5=D8=A9 =D8=A8=D9=83 =D8=B9=D8=A8=D8=B1 =D8=A7=D9=84=
+=D8=A5=D9=86=D8=AA=D8=B1=D9=86=D8=AA =D8=B9=D9=84=D9=89 =D9=85=D8=AF=D8=A7=
+=D8=B1 24 =D8=B3=D8=A7=D8=B9=D8=A9 =D9=8A=D9=88=D9=85=D9=8A=D9=8B=D8=A7 =D9=
+=887 =D8=A3=D9=8A=D8=A7=D9=85 =D9=81=D9=8A =D8=A7=D9=84=D8=A3=D8=B3=D8=A8=
+=D9=88=D8=B9!" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; color: #007680;">=D8=B9=D8=B1=D8=A8=D9=89</a>&nbs=
+p;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJ=
+idWxsZXRpbl9saW5rX2lkIjoxNDUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMj=
+AyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL=
+3BvbGlzaC9pbmQvcmVmdW5kLXBvbC5odG0ifQ.077W5RUuOVOoKBGiMnC81BiB0h2hiJR7RxZxt=
+ac_fPg/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"Sprawd=C5=
+=BA status swojej refundacji online 24/7!" rel=3D"noopener" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">Pols=
+ki</a></p>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h3 style=3D"line-height: 1.2; color: #007680; font-family: arial, helvetic=
+a, sans-serif; font-size: 18px; margin: 1em 0 17px;"><strong><a id=3D"lette=
+r" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; col=
+or: #007680;" name=3D"letter"></a>Respond to a letter</strong></h3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+If we send you a letter about your return, respond online. It's the fastest=
+ way to provide a response or send us documentation.</p>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Review our&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1N=
+iJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2l=
+kIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L3BpdC=
+9sZXR0ZXJzL3JlY29yZGtlZXBpbmcuaHRtI2NoZWNrbGlzdHMifQ.1YXkBed25Shxdq0G1zk4ZA=
+mTZ277ByzSsxo3u4RzE2c/s/2171766886/br/155112848328-l" target=3D"_blank" rel=
+=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; color: #007680;">checklists of acceptable proof</a>&nbsp;first, to =
+ensure your response is complete.</p>
+<table class=3D"govd_button" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"><tbody><tr><td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 1=
+5px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border-spacing: 0; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto;" align=3D"cen=
+ter"><tbody><tr><td class=3D"govd_button" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; background-color: #0B5E68; border-radius: 5px; text-align: center; d=
+isplay: inline-block; overflow-wrap: break-word; word-wrap: break-word; -ms=
+-word-break: break-all; word-break: break-word; padding: 10px; border: none=
+;" align=3D"center" bgcolor=3D"#0B5E68"><a href=3D"https://subscribe.tax.ny=
+.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDcsInVyaSI6ImJwMjp=
+jbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3=
+d3dy50YXgubnkuZ292L3BpdC9sZXR0ZXJzLyJ9.BoqCSCY6GDUfdig1eWg2RPycFJtNBLr9ykwB=
+h03UG94/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noopener n=
+oreferrer" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; text-decoration: none !important;"><strong style=3D"font-family: helve=
+tica; font-size: 15px; color: #FFFFFF; text-decoration: none;">Respond to a=
+ letter</strong></a></td></tr></tbody></table></td></tr></tbody></table>
+<p style=3D"text-align: center; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; line-height: 1.4; font-family: helvetica; font-size: 15px;=
+ margin: 1em 0 15px;" align=3D"center"><a href=3D"https://subscribe.tax.ny.=
+gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDgsInVyaSI6ImJwMjpj=
+bGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d=
+3dy50YXgubnkuZ292L2xhbmd1YWdlL2VzcGFub2wvaW5kL3Jlc3BvbmQtdG8teW91ci1sZXR0ZX=
+Itc3BhLmh0bSJ9.OsiuYPjpLe_fhjS-sTt4XZB8zMPyPqGb-AQMMf-H7-o/s/2171766886/br/=
+155112848328-l" target=3D"_blank" title=3D"Responda a una carta de solicitu=
+d de informaci=C3=B3n adicional" rel=3D"noopener" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">Espa=C3=B1ol</=
+a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1Ni=
+J9.eyJidWxsZXRpbl9saW5rX2lkIjoxNDksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lk=
+IjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd=
+1YWdlL2NoaW5lc2UvaW5kL3Jlc3BvbmQtdG8teW91ci1sZXR0ZXItY2hpLmh0bSJ9.PLnf-wazg=
+TfRaBeBYXjQdkg2o4X7XfAwuDVPQdOgJdQ/s/2171766886/br/155112848328-l" target=
+=3D"_blank" title=3D"=E5=9B=9E=E8=A6=86=E7=B4=A2=E8=A6=81=E9=A1=8D=E5=A4=96=
+=E8=B3=87=E8=A8=8A=E7=9A=84=E4=BF=A1=E5=87=BD" rel=3D"noopener" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=
+=E4=B8=AD=E6=96=87=E7=89=88</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.ta=
+x.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTAsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwcz=
+ovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3J1c3NpYW4vaW5kL3Jlc3BvbmQtdG8teW91ci1sZ=
+XR0ZXItcnVzLmh0bSJ9.8aPVR22Vz3AwXytFK8L4SraJz_GwTMWCo-h2hY4l0HQ/s/217176688=
+6/br/155112848328-l" target=3D"_blank" title=3D"=D0=9E=D1=82=D0=B2=D0=B5=D1=
+=82 =D0=BD=D0=B0 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D1=81 =D0=B7=D0=B0=
+=D0=BF=D1=80=D0=BE=D1=81=D0=BE=D0=BC =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=
+=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B9 =D0=B8=D0=BD=D1=84=D0=BE=
+=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=B8" rel=3D"noopener" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=D0=A0=D1=
+=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9</a>&nbsp;|&nbsp;<a href=3D"https://subscr=
+ibe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTEsInVya=
+SI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJo=
+dHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2JlbmdhbGkvaW5kL3Jlc3BvbmQtdG8teW9=
+1ci1sZXR0ZXItYmVuLmh0bSJ9.TCysU3UsSkmSOVHLktL7DHXMle7SqBp8oQa5v9PR6Lk/s/217=
+1766886/br/155112848328-l" target=3D"_blank" title=3D"=E0=A6=85=E0=A6=A4=E0=
+=A6=BF=E0=A6=B0=E0=A6=BF=E0=A6=95=E0=A7=8D=E0=A6=A4 =E0=A6=A4=E0=A6=A5=E0=
+=A7=8D=E0=A6=AF=E0=A7=87=E0=A6=B0 =E0=A6=9C=E0=A6=A8=E0=A7=8D=E0=A6=AF =E0=
+=A6=85=E0=A6=A8=E0=A7=81=E0=A6=B0=E0=A7=8B=E0=A6=A7=E0=A6=95=E0=A7=83=E0=A6=
+=A4 =E0=A6=8F=E0=A6=95=E0=A6=9F=E0=A6=BF =E0=A6=9A=E0=A6=BF=E0=A6=A0=E0=A6=
+=BF=E0=A6=B0 =E0=A6=89=E0=A6=A4=E0=A7=8D=E0=A6=A4=E0=A6=B0 =E0=A6=AA=E0=A7=
+=8D=E0=A6=B0=E0=A6=A6=E0=A6=BE=E0=A6=A8" rel=3D"noopener" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">=E0=A6=
+=AC=E0=A6=BE=E0=A6=99=E0=A6=BE=E0=A6=B2=E0=A6=BF</a>&nbsp;|&nbsp;<a href=3D=
+"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2=
+lkIjoxNTIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1N=
+TEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3lpZGRpc2gvaW5kL3Jl=
+c3BvbmQtdG8teW91ci1sZXR0ZXIteWlkLmh0bSJ9.3YrtbOs26vk7lG2KteP24H6ic13_qZDGlM=
+Rq6mIfHdU/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"=D7=A2=
+=D7=A0=D7=98=D7=A4=D6=BF=D7=A2=D7=A8=D7=9F =D7=A6=D7=95 =D7=90=D6=B7 =D7=91=
+=D7=A8=D7=99=D7=95=D7=95 =D7=B0=EF=AC=AF=D7=A1 =D7=91=D7=A2=D7=98 =D7=A0=D7=
+=90=D6=B8=D7=9A =D7=90=D7=99=D7=A0=D7=A4=D6=BF=D7=90=D6=B8=D7=A8=D7=9E=D7=
+=90=D6=B7=D7=A6=D7=99=D7=A2" rel=3D"noopener" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; color: #007680;">=D7=99=D7=99=D7=93=
+=D7=99=D7=A9</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJh=
+bGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTMsInVyaSI6ImJwMjpjbGljayIsIm=
+J1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgub=
+nkuZ292L2xhbmd1YWdlL2hjcmVvbGUvaW5kL3Jlc3BvbmQtdG8teW91ci1sZXR0ZXItaGFpLmh0=
+bSJ9.LEVyvwPPyqfDBy_GQ3kOy96p-toH2_aRssncOzA83hA/s/2171766886/br/1551128483=
+28-l" target=3D"_blank" title=3D"Reponn yon l=C3=A8t ki mande plis enf=C3=
+=B2masyon" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; color: #007680;">Krey=C3=B2l ayisyen</a>&nbsp;| <a hr=
+ef=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxNTQsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIy=
+MzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2tvcmVhbi9pbmQ=
+vcmVzcG9uZC10by15b3VyLWxldHRlci1rb3IuaHRtIn0.WQ9pL6E5YBJU5BDfCrafSD4QFEEQ1_=
+0nTDpMPZw1U8A/s/2171766886/br/155112848328-l" target=3D"_blank" title=3D"=
+=EC=B6=94=EA=B0=80 =EC=A0=95=EB=B3=B4=EB=A5=BC =EC=9A=94=EC=B2=AD=ED=95=98=
+=EB=8A=94 =EC=84=9C=EC=8B=A0=EC=97=90 =EC=9D=91=EB=8B=B5=ED=95=98=EA=B8=B0"=
+ rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; color: #007680;">=ED=95=9C=EA=B5=AD=EC=96=B4</a> |&nbsp; &nbsp;=
+<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRp=
+bl9saW5rX2lkIjoxNTUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQ=
+uNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2l0YWxpYW=
+4vaW5kL3Jlc3BvbmQtdG8teW91ci1sZXR0ZXItaXRhLmh0bSJ9.das65Coy61UCM-1hdiKwz7xq=
+kAEcY30oU2QYE0mFilc/s/2171766886/br/155112848328-l" target=3D"_blank" title=
+=3D"Replicare a una comunicazione di richiesta di informazioni aggiuntive" =
+rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; color: #007680;">Italiano</a>&nbsp;|&nbsp;<a href=3D"https://sub=
+scribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTYsIn=
+VyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiO=
+iJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2FyYWJpYy9pbmQvcmVzcG9uZC10by15=
+b3VyLWxldHRlci1hcmEuaHRtIn0.g7VIyzN1sFbDdKFz73AJQTDhU19V2wPg1M_BmTm60l8/s/2=
+171766886/br/155112848328-l" target=3D"_blank" title=3D" =D8=A7=D9=84=D8=B1=
+=D8=AF =D8=B9=D9=84=D9=89 =D8=AE=D8=B7=D8=A7=D8=A8 =D9=8A=D8=B7=D9=84=D8=A8=
+ =D9=85=D8=B9=D9=84=D9=88=D9=85=D8=A7=D8=AA =D8=A5=D8=B6=D8=A7=D9=81=D9=8A=
+=D8=A9" rel=3D"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; color: #007680;">=D8=B9=D8=B1=D8=A8=D9=89</a>&nbsp;|&nbs=
+p;<a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZX=
+Rpbl9saW5rX2lkIjoxNTcsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyM=
+jQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3BvbGlz=
+aC9pbmQvcmVzcG9uZC10by15b3VyLWxldHRlci1wb2wuaHRtIn0.wfdR_8h0mgKw6MD65FuyFKZ=
+zOGkSZeGVAa3a5_UIE-s/s/2171766886/br/155112848328-l" target=3D"_blank" titl=
+e=3D"Odpowiedz na pismo z =C5=BC=C4=85daniem dodatkowych informacji" rel=3D=
+"noopener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; color: #007680;">Polski</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.t=
+ax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTgsInVyaSI6Im=
+JwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwc=
+zovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2ZyZW5jaC9pbmQvcmVzcG9uZC10by15b3VyLWxl=
+dHRlci1mcmUuaHRtIn0.ntHDqE5JoO2ru4jflsT8Mo390bXZuMOkUL1d_I20nhw/s/217176688=
+6/br/155112848328-l" target=3D"_blank" title=3D"R=C3=A9pondre =C3=A0 une le=
+ttre demandant des informations suppl=C3=A9mentaires" rel=3D"noopener" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #00=
+7680;">French</a>&nbsp;|&nbsp;<a href=3D"https://subscribe.tax.ny.gov/l/eyJ=
+hbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNTksInVyaSI6ImJwMjpjbGljayIsI=
+mJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy50YXgu=
+bnkuZ292L2xhbmd1YWdlL3BvcnR1Z3Vlc2UvaW5kL3Jlc3BvbmQtdG8teW91ci1sZXR0ZXItcG9=
+yLmh0bSJ9.jgnwpihgZUTe7ENdmkrMQi0xP2FMFSzgO3xwKKC9Hk8/s/2171766886/br/15511=
+2848328-l" target=3D"_blank" title=3D"Responder a uma carta solicitando inf=
+orma=C3=A7=C3=B5es adicionais" rel=3D"noopener" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; color: #007680;">Portuguese</a></=
+p>
+<div class=3D"govd_hr"><div class=3D"govd_hr_inner"><hr></div></div>
+<h2 style=3D"line-height: 1.2; color: #555555; font-family: arial, helvetic=
+a, sans-serif; font-size: 20px; margin: 0.83em 0 18px;">Any time</h2>
+<img class=3D"govd_template_image" src=3D"https://content.govdelivery.com/a=
+ttachments/fancy_images/NYTAX/2021/10/5012381/card-education_original.jpg" =
+style=3D"width: 585px; height: auto; -ms-interpolation-mode: bicubic; line-=
+height: 1; outline: none; text-decoration: none; max-width: 100%; border: n=
+one;" alt=3D"Man with child on back looking at computer" width=3D"585" heig=
+ht=3D"293"><h3 style=3D"line-height: 1.2; color: #007680; font-family: aria=
+l, helvetica, sans-serif; font-size: 18px; margin: 1em 0 17px;">
+<a id=3D"feedback" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; color: #007680;" name=3D"feedback"></a>Offer feedback</h3>
+<p style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; lin=
+e-height: 1.4; font-family: helvetica; font-size: 15px; margin: 0 0 15px;">=
+Let us know what you think using our&nbsp;<a href=3D"https://subscribe.tax.=
+ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNjAsInVyaSI6ImJwM=
+jpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczov=
+L3RheC5jdXN0aGVscC5jb20vY2kvZG9jdW1lbnRzL2RldGFpbC81LzI2MC8xMi8xOGQ3MzI4ZmM=
+3MTE3Zjc5OGJiYzQ0NzBlYTU5MjkxODNlNmEwNmE0In0.TzM8m-m_-0dshmN1xaXxwUtQ6NkE9p=
+1MBsYdDkhDcpM/s/2171766886/br/155112848328-l" target=3D"_blank" rel=3D"noop=
+ener" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+color: #007680;">Taxpayer Experience survey</a>. Your responses help us dev=
+elop the best-possible resources.</p>
+</td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+  </td>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+  </tr>
+  </table>
+<![endif]-->
+      </td>
+    </tr>
+  </table>
+</div>
+<!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+<![endif]-->
+</td>
+    <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"></td>
+  </tr>
+</table>
+</td></tr></table>
+ =20
+
+
+<div id=3D"mail_footer">
+    <table class=3D"body" style=3D"border-spacing: 0; border-collapse: coll=
+apse; vertical-align: top; text-align: left; font-size: 15px; line-height: =
+1.5; background-color: #ffffff; height: 100%; width: 100%; padding: 0;" bgc=
+olor=3D"#ffffff">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td class=3D"float-center" style=3D"word-wrap: break-word; -webkit-hyphens:=
+ auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !import=
+ant; vertical-align: top; text-align: left; color: #222; font-family: Helve=
+tica, Arial, sans-serif; font-weight: normal; line-height: 1.5; font-size: =
+15px; margin: 0; padding: 0;" align=3D"center" valign=3D"top"><center>
+<table class=3D"container float-center" style=3D"border-spacing: 0; border-=
+collapse: collapse; vertical-align: top; text-align: inherit; background-co=
+lor: #fff; width: 600px; margin: 0 auto; padding: 0;" align=3D"center" bgco=
+lor=3D"#fff">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 15px; margin: 0; paddin=
+g: 0;" align=3D"left" valign=3D"top">
+<table class=3D"spacer row footer" style=3D"border-spacing: 0; border-colla=
+pse: collapse; vertical-align: top; text-align: left; width: 100%; padding:=
+ 0;">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td class=3D"spacing" style=3D"word-wrap: break-word; -webkit-hyphens: auto=
+; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; =
+vertical-align: top; text-align: left; color: #222; font-family: Helvetica,=
+ Arial, sans-serif; font-weight: normal; line-height: 1.5; font-size: 12px;=
+ mso-line-height-rule: exactly; width: 100%; background-color: #e5eeee; mar=
+gin: 0; padding: 16px;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<table class=3D"spacer row footlinks" style=3D"border-spacing: 0; border-co=
+llapse: collapse; vertical-align: top; text-align: left; width: 100%; paddi=
+ng: 0;">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left"><strong>The COVID-19 vaccine is here!</stron=
+g> <a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZ=
+XRpbl9saW5rX2lkIjoxNjEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAy=
+MjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3d3dy5ueS5nb3YvdmFjY2luZSJ9.d1nfnL4M4z=
+XmQwRgHIc5_F5aCaZm2lnFXtDeAnvI304/s/2171766886/br/155112848328-l" target=3D=
+"_blank" title=3D"Learn more about the COVID-19 vaccine" style=3D"color: #0=
+033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text=
+-align: left; line-height: 1.5; text-decoration: underline; margin: 0; padd=
+ing: 0;" rel=3D"noopener">Learn more</a> or <a href=3D"https://subscribe.ta=
+x.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNjIsInVyaSI6ImJ=
+wMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwcz=
+ovL2FtLWktZWxpZ2libGUuY292aWQxOXZhY2NpbmUuaGVhbHRoLm55Lmdvdi8ifQ.eefNsoZOyN=
+94Blt0gtfIpZWSevUE9W7ND_mq9Qrt7R0/s/2171766886/br/155112848328-l" target=3D=
+"_blank" title=3D"Check your eligibility" style=3D"color: #0033c3; font-fam=
+ily: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; l=
+ine-height: 1.5; text-decoration: underline; margin: 0; padding: 0;" rel=3D=
+"noopener"> check your eligibility</a>.</p>
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left"><strong>Are you registered to vote?</strong>=
+ <a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXR=
+pbl9saW5rX2lkIjoxNjMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMj=
+QuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwOi8vd3d3Lm55Lmdvdi9zZXJ2aWNlcy9yZWdpc3Rlci12b=
+3RlIn0.QllpB4vawL7W7TDmzpEEYYYaBI_l7N0Rgvb0xf4Drfw/s/2171766886/br/15511284=
+8328-l" style=3D"color: #0033c3; font-family: Helvetica, Arial, sans-serif;=
+ font-weight: normal; text-align: left; line-height: 1.5; text-decoration: =
+underline; margin: 0; padding: 0;">Register to vote online today</a>.</p>
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left">Moved recently? <a href=3D"https://subscribe=
+.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNjQsInVyaSI6=
+ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHR=
+wczovL3d3dy5lbGVjdGlvbnMubnkuZ292L1ZvdGluZ1JlZ2lzdGVyLmh0bWwjVm90ZVJlZ0NoYW=
+5nZSJ9.wWBsf7JDlSxdoqH3SUKbSDEV9RxCom1xrwbNhkzsI6k/s/2171766886/br/15511284=
+8328-l" style=3D"color: #0033c3; font-family: Helvetica, Arial, sans-serif;=
+ font-weight: normal; text-align: left; line-height: 1.5; text-decoration: =
+underline; margin: 0; padding: 0;">Update your information</a> with the NYS=
+ Board of Elections.</p>
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left">Not sure if you're registered to vote? <a hr=
+ef=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9sa=
+W5rX2lkIjoxNjUsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIy=
+MzQ1NTEiLCJ1cmwiOiJodHRwczovL3ZvdGVybG9va3VwLmVsZWN0aW9ucy5ueS5nb3YvIn0.Uu8=
+ac8wVHLMjFTVDQJsI4l2reKC7MesS184TBBSXnCY/s/2171766886/br/155112848328-l" ta=
+rget=3D"_blank" style=3D"color: #0033c3; font-family: Helvetica, Arial, san=
+s-serif; font-weight: normal; text-align: left; line-height: 1.5; text-deco=
+ration: underline; margin: 0; padding: 0;" rel=3D"noopener">Search your vot=
+er registration status</a>.</p>
+<!--[if (gte mso 9)|(IE)]><br /> <![endif]-->
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left"><strong>Become an organ donor</strong> =E2=
+=80=94 <a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJid=
+WxsZXRpbl9saW5rX2lkIjoxNjYsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAy=
+MzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL2RvbmF0ZWxpZmUubnkuZ292L3JlZ2lzdGV=
+yLyJ9.kUFVAaSI3iQ7Cj872W4eFtSSqT3ZwGo4U6cnJ4G4MMM/s/2171766886/br/155112848=
+328-l" style=3D"color: #0033c3; font-family: Helvetica, Arial, sans-serif; =
+font-weight: normal; text-align: left; line-height: 1.5; text-decoration: u=
+nderline; margin: 0; padding: 0;">enroll today</a>!</p>
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><hr></td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td class=3D"center langlinks" style=3D"word-wrap: break-word; -webkit-hyph=
+ens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !im=
+portant; vertical-align: top; text-align: center; color: #222; font-family:=
+ Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.5; font-=
+size: 12px; mso-line-height-rule: exactly; width: 100%; background-color: #=
+e5eeee; margin: 0; padding: 0;" align=3D"center" valign=3D"top" bgcolor=3D"=
+#e5eeee">
+<table class=3D"spacer row" style=3D"border-spacing: 0; border-collapse: co=
+llapse; vertical-align: top; text-align: left; width: 100%; padding: 0;">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNjc=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2VzcGFub2wvIn0.lufwaLjCy9Goc=
+qtx7-P7ohCyVRp4NdWBd5q87aGDA6M/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">Espa=C3=B1ol</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNjg=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2NoaW5lc2UvIn0.MA5nyxQu4LT5Z=
+53Sk26DlDyqG6fx_CxT2Ytzgt0dwWo/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">=E4=B8=AD=E6=96=87=E7=89=88</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNjk=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3J1c3NpYW4vIn0.sHIg23iXBEcke=
+-3ygat3b0HzHxStD9MIsN5ZBmk5cQY/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">=D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzA=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2JlbmdhbGkvIn0.yyMnT8EtuoTdT=
+ETyPxrlv1UaTu_nGAOvsalzw3WI2_E/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">=E0=A6=AC=E0=A6=BE=E0=A6=82=E0=A6=B2=E0=A6=BE</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzE=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3lpZGRpc2gvIn0.19Gn1HvG1Cj4h=
+LDs913uA8wydGzA9PKuLj_4htO0SWU/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">=D7=99=D7=99=D7=93=D7=99=D7=A9</a></td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzI=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2hjcmVvbGUvIn0.C6d8oZv0FU6ox=
+rrlrxFTiyRL0UVSBSIredypGHx6JZE/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">Krey=C3=B2l ayisyen</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzM=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2tvcmVhbi8ifQ.x4ylE6ID3Zen-K=
+oafNIq7YBQj02ywCjW737AQfc90ng/s/2171766886/br/155112848328-l" style=3D"colo=
+r: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal;=
+ text-align: left; line-height: 1.5; text-decoration: underline; margin: 0;=
+ padding: 0;">=ED=95=9C=EA=B5=AD=EC=96=B4</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzQ=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2l0YWxpYW4vIn0.gNm469dbhj6rk=
+xiaNHzeznqS_POYauS-G-pk6NXpJfk/s/2171766886/br/155112848328-l" style=3D"col=
+or: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal=
+; text-align: left; line-height: 1.5; text-decoration: underline; margin: 0=
+; padding: 0;">Italiano</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzU=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL2FyYWJpYy8ifQ.vw5z3zvVKCBKf9=
+Tn6XiOPON5vAz3QzL8NZjB3EFqYVM/s/2171766886/br/155112848328-l" style=3D"colo=
+r: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal;=
+ text-align: left; line-height: 1.5; text-decoration: underline; margin: 0;=
+ padding: 0;">=D8=B9=D8=B1=D8=A8=D9=89</a></td>
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 20%; background-color: #e5eeee; margin: 0; padding: 4p=
+x 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><a href=3D"https://=
+subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzY=
+sInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cm=
+wiOiJodHRwczovL3d3dy50YXgubnkuZ292L2xhbmd1YWdlL3BvbGlzaC8ifQ.C-Ep8imJZmZmuS=
+t7iCvcnRLyhOocr_RU7UEl9uEz99o/s/2171766886/br/155112848328-l" style=3D"colo=
+r: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal;=
+ text-align: left; line-height: 1.5; text-decoration: underline; margin: 0;=
+ padding: 0;">Polski</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee"><hr></td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left">Connect with us: &nbsp;<a href=3D"https://su=
+bscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzcsI=
+nVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwi=
+OiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vTllTVGF4RGVwdCJ9.0UcOi3zPCfuAGyFGkRYpdM=
+lp4-P8FmhDzyW3nf45oVA/s/2171766886/br/155112848328-l" style=3D"color: #0033=
+c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-al=
+ign: left; line-height: 1.5; text-decoration: underline; margin: 0; padding=
+: 0;">Facebook</a> &nbsp;|&nbsp; <a href=3D"https://subscribe.tax.ny.gov/l/=
+eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxNzgsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3R3aXR0Z=
+XIuY29tL05ZU1RheERlcHQifQ.SDMECWJrYOpGnNZ2ywAnO_MNcXrs6gbsX86kizeQlNc/s/217=
+1766886/br/155112848328-l" style=3D"color: #0033c3; font-family: Helvetica,=
+ Arial, sans-serif; font-weight: normal; text-align: left; line-height: 1.5=
+; text-decoration: underline; margin: 0; padding: 0;">Twitter</a> &nbsp;|&n=
+bsp; <a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWx=
+sZXRpbl9saW5rX2lkIjoxNzksInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMz=
+AyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3VzZXIvTllTVGF4R=
+GVwYXJ0bWVudCJ9.23vAfpxt4KvLFY9-gRU5hoV3No4hBXCAIaFExPQWn64/s/2171766886/br=
+/155112848328-l" style=3D"color: #0033c3; font-family: Helvetica, Arial, sa=
+ns-serif; font-weight: normal; text-align: left; line-height: 1.5; text-dec=
+oration: underline; margin: 0; padding: 0;">YouTube</a></p>
+<!--[if (gte mso 9)|(IE)]><br /> <![endif]-->
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 12px; mso-line-height-r=
+ule: exactly; width: 100%; background-color: #e5eeee; margin: 0; padding: 8=
+px 0;" align=3D"left" valign=3D"top" bgcolor=3D"#e5eeee">
+<p style=3D"color: #222; font-family: Helvetica, Arial, sans-serif; font-we=
+ight: normal; text-align: left; line-height: 1.5; font-size: 12px; margin: =
+0; padding: 0;" align=3D"left">Want to make a difference? <a href=3D"https:=
+//subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxO=
+DAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1=
+cmwiOiJodHRwczovL3d3dy50YXgubnkuZ292L2Fib3V0L2VtcG9wcHMvIn0.QWuXsaorCk3YIxx=
+l97PvyZA23iMFJz8J75WSJ21Xtsw/s/2171766886/br/155112848328-l" style=3D"color=
+: #0033c3; font-family: Helvetica, Arial, sans-serif; font-weight: normal; =
+text-align: left; line-height: 1.5; text-decoration: underline; margin: 0; =
+padding: 0;">Join Team Tax</a>!</p>
+<!--[if (gte mso 9)|(IE)]><br /> <![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td style=3D"word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: au=
+to; hyphens: auto; border-collapse: collapse !important; vertical-align: to=
+p; text-align: left; color: #222; font-family: Helvetica, Arial, sans-serif=
+; font-weight: normal; line-height: 1.5; font-size: 15px; margin: 0; paddin=
+g: 0;" align=3D"left" valign=3D"top"><center>
+<table class=3D"spacer row vspacingl" style=3D"width: 100% !important; bord=
+er-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: =
+left; padding: 0;" width=3D"100%">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"l=
+eft">
+<td class=3D"lgray smallf center" style=3D"word-wrap: break-word; -webkit-h=
+yphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse =
+!important; vertical-align: top; text-align: center; color: #222; font-fami=
+ly: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.5; fo=
+nt-size: 11px; mso-line-height-rule: exactly; width: 100%; background-color=
+: #ffffff; margin: 0; padding: 16px 0;" align=3D"center" valign=3D"top" bgc=
+olor=3D"#ffffff"><a href=3D"https://subscribe.tax.ny.gov/l/eyJhbGciOiJIUzI1=
+NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxODEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2=
+lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3B1YmxpYy5nb3ZkZWxpdmVye=
+S5jb20vYWNjb3VudHMvTllUQVgvc3Vic2NyaWJlcnMvbmV3PyUyMCUyMHByZWZlcmVuY2VzPXRy=
+dWUifQ.yvb22msnxwhpPAkh5dYdOu_NFVhyxJ0kuvw5LfvkBl8/s/2171766886/br/15511284=
+8328-l" style=3D"color: #444; font-family: Helvetica, Arial, sans-serif; fo=
+nt-weight: normal; text-align: left; line-height: 1.5; text-decoration: und=
+erline; margin: 0; padding: 0;" class=3D"gray">Unsubscribe / Update prefere=
+nces</a></td>
+</tr>
+</tbody>
+</table>
+</center></td>
+</tr>
+</tbody>
+</table>
+</center></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id=3D"tagline">
+    <style type=3D"text/css"><!--
+.gd-footer a {color: #009bde;}
+--></style>
+<table class=3D"gd-footer" style=3D"border-collapse: collapse; margin: 0px =
+auto; width: 600px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center">
+<tbody>
+<tr>
+<td style=3D"padding-top: 10px; padding-right: 2px; padding-left: 2px;">
+<table class=3D"gd-footer-inner" style=3D"border-collapse: collapse; margin=
+: 0px auto; width: 800px; height: 30px;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" align=3D"left">
+<tbody>
+<tr>
+<td><font face=3D"times new roman,times" size=3D"1"><span style=3D"color: #=
+757575; font-size: 11px; font-family: verdana, sans-serif; mso-line-height-=
+rule: exactly; line-height: 120%;"><span style=3D"font-size: 11px;">This em=
+ail was sent to <a href=3D"mailto:ljaust7%40hotmail.com" style=3D"color: #0=
+09bde; text-decoration: none;"><span style=3D"color: #009bde;">ljaust7@hotm=
+ail.com</span></a> using GovDelivery Communications Cloud on behalf of: New=
+ York State Department of Taxation and Finance</span></span></font></td>
+<td align=3D"right" width=3D"90"><a href=3D"https://subscribe.tax.ny.gov/l/=
+eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxODIsInVyaSI6ImJwMjpjbGljay=
+IsImJ1bGxldGluX2lkIjoiMjAyMzAyMjQuNzIyMzQ1NTEiLCJ1cmwiOiJodHRwczovL3N1YnNjc=
+mliZXJoZWxwLmdyYW5pY3VzLmNvbS8ifQ.60j0pATxR_nqe0Bn-MLhmIQ0BtGlHoOA4K8amuno-=
+Vk/s/2171766886/br/155112848328-l" target=3D"_blank" style=3D"color: #009bd=
+e;" rel=3D"noopener"><img src=3D"https://content.govdelivery.com/attachment=
+s/fancy_images/NYTAX/2015/09/615408/gd-tagline-logo_original.jpg" border=3D=
+"0" alt=3D"GovDelivery logo" width=3D"86" height=3D"26"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<img src=3D"https://links.govdelivery.com/track?enid=3DZWFzPTEmYnVsbGV0aW5y=
+ZWNpcGllbnRpZD0xNTUxMTI4NDgzMjgtbCZzdWJzY3JpYmVyaWQ9MjE3MTc2Njg4NiZtc2lkPSZ=
+hdWlkPSZtYWlsaW5naWQ9MjAyMzAyMjQuNzIyMzQ1NTEmbWVzc2FnZWlkPU1EQi1QUkQtQlVMLT=
+IwMjMwMjI0LjcyMjM0NTUxJmRhdGFiYXNlaWQ9MTAwMSZ0eXBlPW9wZW4mc2VyaWFsPTE2ODk5M=
+jA4JmVtYWlsaWQ9bGphdXN0N0Bob3RtYWlsLmNvbSZ1c2VyaWQ9bGphdXN0N0Bob3RtYWlsLmNv=
+bSZ0YXJnZXRpZD0mZmw9Jm12aWQ9JmV4dHJhPSYmJg=3D=3D" width=3D"1" height=3D"1" =
+style=3D"border-width:0; border-style:hidden;" alt=3D""></body>
+</html>
+=0A=
+
+------=_NextPart_334_3676_16A65A77.7892570E--
