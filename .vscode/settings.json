@@ -1,6 +1,9 @@
 {
   "java.project.sourcePaths": [
-    "programs/prog1-extractor/src"
+    "programs/prog2-processor/src",
+    "programs/prog1-extractor/src",
+    "Home-Work/HW4/output",
+    "programs/prog3-ui/src"
   ],
   "files.associations": {
     "iosfwd": "cpp",

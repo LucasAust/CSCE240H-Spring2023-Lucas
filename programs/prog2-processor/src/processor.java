@@ -7,13 +7,14 @@ public class processor {
     public static Scanner keyboard = new Scanner(System.in);
     public static ArrayList<String> CDCArticle = new ArrayList<String>();
     public static ArrayList<String> WebMDArticle = new ArrayList<String>();
-    public static ArrayList<ArrayList<String>> Articles = new ArrayList<ArrayList<String>>();
+    public static ArrayList<ArrayList<String>> Articles = new ArrayList<ArrayList<String>>();//ArrayList that will hold all of the articles
 
     public static void main(String[] args)
     {
         System.out.println("Welcome to the disease chatbot!");
         disease();
     }
+    //Method to select which disease user wants to work with
     public static void disease()
     {
         System.out.println("Enter the name of the disease you would like to talk about.\n(The disease the system currently runs on is polio.)");
@@ -28,15 +29,15 @@ public class processor {
             disease();
         }
     }
-
+    //This method reads files given by the user and adds them to the arrayList
     public static void polio()
     {
-        System.out.println("Enter the name of the first file you would like to read.\nThe default file name is programs/prog1-extractor/data/CDCPolio.txt.\nEnter \"test\" to run the default file");
+        System.out.println("Enter the name of the first file you would like to read.\nThe default file name is programs/prog2-processor/data/CDCPolio.txt.\nEnter \"test\" to run the default file");
         String in = keyboard.nextLine();
         if (in.equalsIgnoreCase("Test"))
         in = "programs/prog2-processor/data/CDCPolio.txt";
         String CDCFile = in;
-        System.out.println("Enter the name of the second file you would like to read.\nThe default file name will be programs/prog1-extractor/data/WebMDPolio.txt.\nEnter \"test\" to run the default file.");
+        System.out.println("Enter the name of the second file you would like to read.\nThe default file name will be programs/prog2-processor/data/WebMDPolio.txt.\nEnter \"test\" to run the default file.");
         in = keyboard.nextLine();
         if(in.equalsIgnoreCase("Test"))
         in = "programs/prog2-processor/data/WebMDPolio.txt";
@@ -49,6 +50,7 @@ public class processor {
         bot(Articles);
         
     }
+    //Method that reads a text file and stores each line individually in an arrayList
     public static ArrayList<String> readFile(String fileName, ArrayList<String> data)
     {
         int i = 0;
@@ -70,42 +72,44 @@ public class processor {
             }
             return data;
     }
+    //Main chatting method
     public static void bot(ArrayList<ArrayList<String>> Articles)
     {
         String resp = "";
         boolean quit = false;
-        while(!quit)
+        while(!quit)//Loop that continues until user wants to stop asking questions
         {
             System.out.println("Ask me a question about the disease or enter \"quit\" to exit the program.");
             resp = keyboard.nextLine();
             resp.toLowerCase();
             System.out.println();
-            if(resp.contains("what is polio"))
+            if(resp.contains("what is polio"))//This check will establish what the user wants to know, repeated multiple times below
             {
                 String print = null;
-                for(int i =0;i<Articles.size();i++)
+                for(int i =0;i<Articles.size();i++)//Loop to check all of the articles for data
                 {
                     ArrayList<String> article = Articles.get(i);
-                    for(int j=0;j<article.size();j++)
+                    for(int j=0;j<article.size();j++)//Loop to check each line in an article
                     {
                     String line = article.get(j).toLowerCase();
                     if(line.contains("what is polio"))
                     {
-                    for(int h = j+1;h<article.size()-1;h++)
+                    for(int h = j+1;h<article.size()-1;h++)//Loop that prints each line until the section of information is over
                     {
                         print=article.get(h);
-                        if(print.equals(""))
-                        break;
+                        if(print.equals(""))//This check finds when the section of information is over
+                        break;//Stops the loop once the information is over
 
-                        System.out.println(print);
+                        System.out.println(print);//Prints each line to the console
                     }
                     break;
                     }
                 }
-                if (print!=null)
-                break;
+                if (print!=null)//If print is null, then the first article did not have the desired information.
+                break;//Breaks out of the loop of articles so that it only prints one set of data
                 }
             }
+            //Each else if has the same functionality. The only difference is what specific question the program is checking for
             else if(resp.contains("cause")||resp.contains("causes"))
             {
                 String print = null;
@@ -280,12 +284,14 @@ public class processor {
                 break;
                 }
             }
+            //when the user wants to end the program they enter quit, and the program will terminate
             else if(resp.equalsIgnoreCase("quit"))
             {
                 quit = true;
                 System.out.println("Thank you for using the disease chatbot.");
                 System.exit(0);
             }
+            //If the user input matches none of the known questions, then it simply asks the user to enter another question
             else
             {
                 System.out.println("Sorry, I could not understand this input");
@@ -293,5 +299,4 @@ public class processor {
             System.out.println();
         }
     }
-    
 }

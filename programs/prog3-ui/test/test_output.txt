@@ -1,0 +1,40 @@
+Input: What is polio?
+Output: Polio is a life-threatening disease caused by a virus. It was once one of the most feared diseases in the United States, but the creation of a vaccine in the 1950s ended the threat. 
+The U.S. is now polio-free, though travelers can still bring it into this country.
+Polio is short for "poliomyelitis." It iss a virus that spreads easily between people who are not vaccinated. 
+In its most severe form, it can attack your spinal cord and brain and cause paralysis.
+People of any age can get polio, but kids under 5 have the highest risk of getting it.
+
+Input: Who is at risk?
+Output: Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
+If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
+Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
+
+Input: What can Travelers do to prevent polio?
+Output: Get the polio vaccine
+Make sure you are up to date on your polio vaccines. If you are up to date on your polio vaccines and traveling to a polio- affected country, you may need a one-time polio adult booster.
+Check the travel health page of your destination and talk to your healthcare professional to learn which vaccines you may need before traveling.
+Make sure children are vaccinated. For best protection, children should get four doses of polio vaccine. Ideally, children should receive a dose at ages
+2 months;
+4 months;
+6 through 18 months; and
+a booster dose at age 4 through 6 years.
+For information about adults who may not have received sufficient vaccine protection, see the adult polio vaccination schedule.
+See Polio Vaccine Information Statement (VIS) for more information.
+Choose safer food and drinks while traveling
+Follow the food and drink safety tips to avoid exposure to any food and drinks that could be contaminated by the stool of a person infected with polio.
+Wash your hands often
+Wash your hands often with soap and water, especially after using the bathroom or changing a childâ??s diaper and before eating or preparing food.
+Alcohol-based hand sanitizers do not kill poliovirus.
+Do not touch your eyes, nose, or mouth. If you need to touch your face, make sure your hands are clean.
+Cover your mouth and nose with a tissue or your sleeve (not your hands) when coughing or sneezing.
+
+Input: What should I do to prevent polio after travel
+Output: Sorry, I have no information on that question.
+
+Input: More Information:
+Output: Since 1988, the number of cases of polio in the world has gone down by 99%.
+The U.S. has not had a case of polio since 1979. In 2018, sources reported only 33 cases worldwide.
+But while many countries are polio-free, some still actively have it. And anyone who comes into contact with the virus who has not been vaccinated can get it.
+The best way to get rid of polio for good across the world is to make sure people are immunized.
+

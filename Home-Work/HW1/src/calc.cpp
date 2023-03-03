@@ -9,12 +9,16 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <cmath>
 
 
 using namespace std;
 
 int main()
 {
+    int a = 5;
+    int b = 6;
+    cout<< a + b;
     int count=0;
     int i1;
     int i2;

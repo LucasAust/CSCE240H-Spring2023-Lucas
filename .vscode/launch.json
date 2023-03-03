@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ui",
+      "request": "launch",
+      "mainClass": "ui",
+      "projectName": "CSCE240H-Spring2023-Lucas_6cb3353f"
+    },
+    {
+      "type": "java",
       "name": "Launch processor",
       "request": "launch",
       "mainClass": "processor",
