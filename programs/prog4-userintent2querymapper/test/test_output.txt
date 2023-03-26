@@ -26,7 +26,7 @@ See Polio Vaccine Information Statement (VIS) for more information.
 Choose safer food and drinks while traveling
 Follow the food and drink safety tips to avoid exposure to any food and drinks that could be contaminated by the stool of a person infected with polio.
 Wash your hands often
-Wash your hands often with soap and water, especially after using the bathroom or changing a childâ??s diaper and before eating or preparing food.
+Wash your hands often with soap and water, especially after using the bathroom or changing a childs diaper and before eating or preparing food.
 Alcohol-based hand sanitizers do not kill poliovirus.
 Do not touch your eyes, nose, or mouth. If you need to touch your face, make sure your hands are clean.
 Cover your mouth and nose with a tissue or your sleeve (not your hands) when coughing or sneezing.
@@ -129,7 +129,7 @@ Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 Input: Tell me about the polio vaccine
 Output: There are two types of the vaccine:
 Inactivated poliovirus vaccine (IPV). You get this as a shot in either your leg or your arm.
-Oral poliovirus vaccine (OPV). This is an older form of the vaccine thatâ??s still used around the world.
+Oral poliovirus vaccine (OPV). This is an older form of the vaccine that is still used around the world.
 Today, kids in the U.S. often get four doses of the IPV vaccine, one dose each at ages:
 2 months
 4 months
@@ -140,7 +140,7 @@ The only reason you might need a booster shot is if you plan to travel to a coun
 If you did not have all your vaccines or are unsure, your doctor can give them to you.
 You will get two shots that are 4 to 8 weeks apart, and then a third shot 6 months to a year later.
 While most of the world is also polio-free, three countries -- Afghanistan, Nigeria, and Pakistan -- have not fully stopped outbreaks of the virus.
-Some people can have an allergic reaction to the vaccine. Usually youâ??ll see any symptoms of an allergy within a few minutes to a few hours after you get it.
+Some people can have an allergic reaction to the vaccine. Usually you will see any symptoms of an allergy within a few minutes to a few hours after you get it.
 To tell if you have an allergy to the polio vaccine, watch for:
 A hard time breathing
 Weakness
