@@ -98,8 +98,11 @@ public class disease {
                 break;
                 }
             }
-            if (print!=null)//If print is null, then the first article did not have the desired information.
+            if (print!=null)
+            {//If print is null, then the first article did not have the desired information.
+            whatIs.add("Source: "+article.get(0));//This will always be the file name
             break;
+            }
             }      
     }
 
@@ -128,7 +131,10 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            whoIs.add("Source: "+article.get(0));
             break;
+            }
             }
     }
     //These functionalities are repeated for each of the characteristics
@@ -157,7 +163,10 @@ public class disease {
                     }
                 }
                 if (print!=null)
+                {
+                causes.add("Source: "+article.get(0));
                 break;
+                }
                 }
     }
 
@@ -185,7 +194,10 @@ public class disease {
             }
         }
         if (print!=null)
+        {
+        whatCanTravelers.add("Source: "+article.get(0));
         break;
+        }
         }
     }
 
@@ -213,8 +225,11 @@ public class disease {
             }
         }
         if (print!=null)
+        {
+        afterTravel.add("Source: "+article.get(0));
         break;
         }
+    }
     }
 
     public ArrayList<String> getMoreInfo() {
@@ -242,7 +257,10 @@ public class disease {
             }
         }
         if (print!=null)
+        {
+        moreInfo.add("Source: "+article.get(0));
         break;
+        }
         }
     }
 
@@ -271,7 +289,10 @@ public class disease {
             }
         }
         if (print!=null)
+        {
+        types.add("Source: "+article.get(0));
         break;
+        }
         }
     }
 
@@ -300,7 +321,10 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            symptoms.add("Source: "+article.get(0));
             break;
+            }
             }
     }
 
@@ -329,7 +353,10 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            whenToCall.add("Source: "+article.get(0));
             break;
+            }
             }
     }
 
@@ -358,8 +385,11 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            diagnosis.add("Source: "+article.get(0));
             break;
             }
+        }
     }
 
     public ArrayList<String> getTreatment() {
@@ -387,8 +417,11 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            treatment.add("Source: "+article.get(0));
             break;
             }
+        }
     }
 
     public ArrayList<String> getComplications() {
@@ -416,8 +449,11 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            complications.add("Source: "+article.get(0));
             break;
             }
+        }
     }
 
     public ArrayList<String> getVaccine() {
@@ -445,8 +481,11 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            vaccine.add("Source: "+article.get(0));
             break;
             }
+        }
     }
     public void setTransmission(ArrayList<ArrayList<String>> Articles) {
         String print = null;
@@ -469,8 +508,11 @@ public class disease {
                 }
             }
             if (print!=null)
+            {
+            transmission.add("Source: "+article.get(0));
             break;
             }
+        }
     }
     
 }

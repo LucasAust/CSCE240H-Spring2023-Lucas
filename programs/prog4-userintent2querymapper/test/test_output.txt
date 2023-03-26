@@ -153,7 +153,7 @@ Output: Will output the same as long as the spelling isnt a critical error
 Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
 If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
 Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
-
+-If a critical word is misspelled, such as symptoms, the program will not be able to understand the input
 
 Input: Anything that does not match any querys by .7 or more (Why is polio a disease?)
 Output: I could not understand this input, please rephrase and try again

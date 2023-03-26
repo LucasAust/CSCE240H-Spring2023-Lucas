@@ -10,7 +10,7 @@ public static ArrayList<String> WebMDArticle = new ArrayList<String>();
 public static ArrayList<ArrayList<String>> Articles = new ArrayList<ArrayList<String>>();
 public static void main(String[] args)
 {
-    System.out.println("Welcome to the disease chatbot!");
+    System.out.println("System: Welcome to the disease chatbot!");
     disease();
     
 }
@@ -30,12 +30,15 @@ public static void disease()
     ArrayList<String> vaccine = new ArrayList<String>();
     ArrayList<String> transmission = new ArrayList<String>();
     ArrayList<String> causes = new ArrayList<String>();
-    System.out.println("Enter the disease you would like to talk about.");
+    System.out.println("System: Enter the disease you would like to talk about.");
+    System.out.print("User: ");
     String diseaseName = keyboard.nextLine();
     System.out.println("This system runs on information from text file versions of a WebMD article, and a CDC article");
-    System.out.println("Enter the name of your WebMD File.");
+    System.out.println("System: Enter the name of your WebMD File.");
+    System.out.print("User: ");
     String WebMDFile = keyboard.nextLine();
     System.out.println("Enter the name of your CDC file.");
+    System.out.print("User: ");
     String CDCFile = keyboard.nextLine();
     WebMDArticle = readFile(WebMDFile,WebMDArticle);
     CDCArticle = readFile(CDCFile, CDCArticle);
@@ -71,7 +74,8 @@ public static void bot(disease disease)
         double minmatch = .7;
         String[] response;
         ArrayList<String> ret = new ArrayList<String>();
-        System.out.println("Ask me a question about the disease or enter \"quit\" to exit the program.");
+        System.out.println("System: Ask me a question about the disease or enter \"quit\" to exit the program.");
+        System.out.print("User: ");
         resp = keyboard.nextLine();
         resp.replace("?","");//These avoid punctuation that would break calculations
         resp.replace(".","");
@@ -147,6 +151,7 @@ public static void bot(disease disease)
         double q14p=querycheck(response,q14);
         percentages.add(q14p);
         double maxMatch = sort(percentages);
+        System.out.println("System:");
         if(resp.equalsIgnoreCase("quit"))
         {
             quit = true;
@@ -166,6 +171,7 @@ public static void bot(disease disease)
             {
                 System.out.println("Sorry, I have no information on that question.");
             }
+           
             for(int i=0;i<ret.size();i++)//Loop to print all of the information
             {
                 System.out.println(ret.get(i));
@@ -335,11 +341,12 @@ public static void bot(disease disease)
 //Method to read the file into an array list, and then returns the array list
 public static ArrayList<String> readFile(String fileName, ArrayList<String> data)
     {
-        int i = 0;
+        int i = 1;
         String line = "";
         try {
             File file = new File(fileName);
             Scanner scan = new Scanner(file);
+            data.add(fileName);//Add the filename to the top line of the file, will only be accessed by calling for line 0
             while(scan.hasNextLine())
             {
                 line = scan.nextLine();
