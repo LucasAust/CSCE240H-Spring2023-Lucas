@@ -1,5 +1,5 @@
 Input: What is polio?
-Output: Polio is a life-threatening disease caused by a virus. It was once one of the most feared diseases in the United States, but the creation of a vaccine in the 1950s ended the threat. 
+Output: System: Polio is a life-threatening disease caused by a virus. It was once one of the most feared diseases in the United States, but the creation of a vaccine in the 1950s ended the threat. 
 The U.S. is now polio-free, though travelers can still bring it into this country.
 Polio is short for "poliomyelitis." It iss a virus that spreads easily between people who are not vaccinated. 
 In its most severe form, it can attack your spinal cord and brain and cause paralysis.
@@ -7,13 +7,13 @@ People of any age can get polio, but kids under 5 have the highest risk of getti
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: Who is at risk?
-Output: Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
+Output: System: Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
 If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
 Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
 Source: programs\prog4-userintent2querymapper\data\CDCPolio.txt
 
 Input: What can travelers do to prevent polio?
-Output: Get the polio vaccine
+Output: System: Get the polio vaccine
 Make sure you are up to date on your polio vaccines. If you are up to date on your polio vaccines and traveling to a polio- affected country, you may need a one-time polio adult booster.
 Check the travel health page of your destination and talk to your healthcare professional to learn which vaccines you may need before traveling.
 Make sure children are vaccinated. For best protection, children should get four doses of polio vaccine. Ideally, children should receive a dose at ages
@@ -33,26 +33,26 @@ Cover your mouth and nose with a tissue or your sleeve (not your hands) when cou
 Source: programs\prog4-userintent2querymapper\data\CDCPolio.txt
 
 Input: What should I do to prevent polio after travel?
-Output: Sorry, I have no information on that question.
+Output: System: Sorry, I have no information on that question.
 
 Input: Give me more information about polio
-Output: Since 1988, the number of cases of polio in the world has gone down by 99%.
+Output: System: Since 1988, the number of cases of polio in the world has gone down by 99%.
 The U.S. has not had a case of polio since 1979. In 2018, sources reported only 33 cases worldwide.
 But while many countries are polio-free, some still actively have it. And anyone who comes into contact with the virus who has not been vaccinated can get it.
 The best way to get rid of polio for good across the world is to make sure people are immunized.
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: What causes polio?
-Output: You get polio from a virus. You have to come in direct contact with the virus to get it.
+Output: System: You get polio from a virus. You have to come in direct contact with the virus to get it.
 This can be person-to-person contact, or through contact with an object that has the virus on it.
 When you have the virus, it lives in your throat and intestines.
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: What are the types of Polio?
-Output: Sorry, I have no information on that question.
+Output: System: Sorry, I have no information on that question.
 
 Input: What are the symptoms of polio?
-Output: Most people who catch the poliovirus do not have symptoms.
+Output: System: Most people who catch the poliovirus do not have symptoms.
 About 1 in 4 people will have symptoms that look a lot like the flu, such as:
 Sore throat
 Feeling tired
@@ -79,13 +79,13 @@ Some people call AFM a "polio-like" illness, but it is not the same virus.
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: When should I call a doctor about polio?
-Output: Sorry, I have no information on that question.
+Output: System: Sorry, I have no information on that question.
 
 Input: What is the polio diagnosis?
 Output: Sorry, I have no information on that question.
 
 Input: What is the treatment for polio?
-Output: If you have polio, your doctor will focus on making sure that you are comfortable and try to prevent any other health issues.
+Output: System: If you have polio, your doctor will focus on making sure that you are comfortable and try to prevent any other health issues.
 Some treatments and tools for support include:
 Pain relievers (like ibuprofen)
 A ventilator (a device that helps you breathe)
@@ -100,7 +100,7 @@ A mobility aid such as a cane, wheelchair, or electric scooter
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: Are there complications from having polio?
-Output: Most people who catch the poliovirus do not have symptoms.
+Output: System: Most people who catch the poliovirus do not have symptoms.
 About 1 in 4 people will have symptoms that look a lot like the flu, such as:
 Sore throat
 Feeling tired
@@ -127,7 +127,7 @@ Some people call AFM a "polio-like" illness, but it is not the same virus.
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: Tell me about the polio vaccine
-Output: There are two types of the vaccine:
+Output: System: There are two types of the vaccine:
 Inactivated poliovirus vaccine (IPV). You get this as a shot in either your leg or your arm.
 Oral poliovirus vaccine (OPV). This is an older form of the vaccine that is still used around the world.
 Today, kids in the U.S. often get four doses of the IPV vaccine, one dose each at ages:
@@ -152,17 +152,17 @@ Call your doctor right away if you have any of these signs.
 Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
 
 Input: Anything unrelated (how are you? How is the weather?)
-Output: I could not understand this input, please rephrase and try again
+Output: System: I could not understand this input, please rephrase and try again
 
 Input: quit
-Output: Thank you for using the disease chatbot.
+Output: System: Thank you for using the disease chatbot.
 
 Input: Basic misspelling (whoo is at risk?, who is at rsk?)
-Output: Will output the same as long as the spelling isnt a critical error
+Output: System: Will output the same as long as the spelling isnt a critical error
 Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
 If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
 Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
 -If a critical word is misspelled, such as symptoms, the program will not be able to understand the input
 
 Input: Anything that does not match any querys by .7 or more (Why is polio a disease?)
-Output: I could not understand this input, please rephrase and try again
+Output: System: I could not understand this input, please rephrase and try again
