@@ -1,9 +1,10 @@
 {
   "java.project.sourcePaths": [
+    "programs/prog3-ui/src",
     "programs/prog2-processor/src",
     "programs/prog1-extractor/src",
     "Home-Work/HW4/output",
-    "programs/prog3-ui/src"
+    "programs/prog4-userintent2querymapper/src"
   ],
   "files.associations": {
     "iosfwd": "cpp",
@@ -42,5 +43,6 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "C_Cpp_Runner.useAddressSanitizer": false
 }

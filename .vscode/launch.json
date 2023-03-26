@@ -48,8 +48,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ljaus/CSCE240H-Spring2023-Lucas/Home-Work/HW3/data",
-      "program": "c:/Users/ljaus/CSCE240H-Spring2023-Lucas/Home-Work/HW3/data/build/Debug/outDebug",
+      "cwd": "c:/Users/ljaus/CSCE240H-Spring2023-Lucas",
+      "program": "c:/Users/ljaus/CSCE240H-Spring2023-Lucas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

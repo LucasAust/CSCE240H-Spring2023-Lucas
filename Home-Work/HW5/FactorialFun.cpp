@@ -71,7 +71,7 @@ float factorial()//Method to calculate the factorial
 }
 float combination()//Method to calculate combination
 {
-cout<<"Enter the integers that you would like to calculate the combination of. Enter the larger number first. If you try to enter more than 2 numbers, it will only calculate the first two."<<endl<<"The program will not continue until you enter 2 integers.";
+cout<<"Enter the integers that you would like to calculate the combination of. Enter the larger number first. If you try to enter more than 2 numbers, it will only calculate the first two."<<endl<<"The program will not continue until you enter 2 integers."<<endl;
 bool fac = false;
 int n=-1;
 int r=-1;

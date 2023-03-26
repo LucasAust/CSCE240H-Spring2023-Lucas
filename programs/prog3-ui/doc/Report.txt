@@ -10,7 +10,7 @@ and answer specific questions about the disease and print it to the console.
  Based on this disease, I had the user add 2 text files that the program would read data from. The program then called a read file method for each of these files, 
  and returned the information in an arrayList. Based on these arrayLists and the disease name, I built the default disease by calling the constructor in the disease class.
  The disease class had characteristics for each of the 12 question types. I called the setters for each of these characteristics to sort the information. Each setter would loop through 
- each article until it found the information that was relevant to that characteristic and stored it in an arrayList. After doing this, I called the main bot method in the ui class.
+ each article until it found the information that was relevant to that characteristic and stored it in an arrayList. 
  This class contained a while loop that would keep asking the user for prompts until the user decided to quit. Each time the program would read the user input, and based on that input it would
  call the appropriate getter, and print out the information that it had. Once the user entered quit, the program would exit out.
 
