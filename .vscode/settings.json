@@ -1,10 +1,14 @@
 {
   "java.project.sourcePaths": [
+    "programs/prog5-sessionlogger/src",
+    "programs/prog4-userintent2querymapper/src",
+    "programs/prog4-userintent2querymapper",
     "programs/prog3-ui/src",
+    "programs/prog3-ui",
     "programs/prog2-processor/src",
     "programs/prog1-extractor/src",
     "Home-Work/HW4/output",
-    "programs/prog4-userintent2querymapper/src"
+    "programs/prog5-sessionlogger"
   ],
   "files.associations": {
     "iosfwd": "cpp",

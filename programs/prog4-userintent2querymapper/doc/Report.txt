@@ -1,7 +1,7 @@
 Lucas Aust
 
 Problem
-For this assignment, I had to writa a program that would take a disease from user input, read data from files about this inputted disease,
+For this assignment, I had to write a program that would take a disease from user input, read data from files about this inputted disease,
 and answer specific questions about the disease and print it to the console. The program would use calculations to determine the best query to answer based on the user inputted quesition.
 
 Solution

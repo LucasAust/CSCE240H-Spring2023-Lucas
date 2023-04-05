@@ -1,0 +1,34 @@
+Lucas Aust
+
+Problem
+For this assignment, I had to write a program that would take a disease from user input, read data from files about this inputted disease,
+and answer specific questions about the disease and print it to the console. The program would use calculations to determine the best query to answer based on the user inputted quesition.
+Additionally, I had to report on statistics of each chat.
+
+Solution
+I wrote two classes for this program. The main user interface class, and the disease class. I did this in order to focus on reusability.
+In the user interface class, I first greeted the user. Then I switched the method into one that would ask the user what disease they wanted to talk about.
+Based on this disease, I had the user add 2 text files that the program would read data from. The program then called a read file method for each of these files, 
+and returned the information in an arrayList. Based on these arrayLists and the disease name, I built the default disease by calling the constructor in the disease class.
+The disease class had characteristics for each of the 12 question types. I called the setters for each of these characteristics to sort the information. Each setter would loop through 
+each article until it found the information that was relevant to that characteristic and stored it in an arrayList. After doing this, I called the main bot method in the ui class.
+This method contained a loop that would run each time the user inputted something that wasnt a quit statement. This loop established each of the querys into arraylists that would store
+each word in the query. The program then received a question from the user. It would also store each word of the input into an arraylist. The program then called a method to calculate the match 
+percentage of each query and the response by dividing the number of shared words to the total length of the query. The method would return this value and the value would be stored in another arraylist
+that holds all of the match percentages. The program then called a method to sort the arraylist of percentages and return the highest match percentage. The program would then go through the match percentage
+for each query until it finds the query that corresponds with that percentage. It would then call the getter of the relevant information and print out each line. If no match percentage was over .7,
+the program would just ask the user to rephrase and enter their question again. If the user enters the quit statement, the program exits the loop and exits the program. To report on statistics of each chat, 
+the user could ask for an overall summary, a summary of a specific chat, and to see the actual chat. To see the overall summary, the program would read the csv file, and loop through the file. 
+Each time the program would loop through the file, it would store each line and split it into three values. The user utterances, system utterances, and duration. 
+The program would add this value to the existing amount of utterances or time. At the end of the file, the program would print out the values. When the user wants to see the summary of a specific chat,
+they would enter the serial number they want to view. The program would read the csv file and store it. The program would then loop through the file until it finds a line that has the serial number the user is looking for.
+If the program could not find the serial number, the program would return that it was an invalid chat number. If it is found, it would store the line the number was found on. It would then split the line into 
+user and system utterances, and duration. The program would then print out these values. Finally, if the user wanted to read the chat of a specific serial number. The user would enter the desired serial number. 
+The program would then read and store the csv file. Then, the program would loop through the file until it finds the line that has the desired serial number.
+Once found it would split the line into its file name. The program would then read and store the file based on the filename in the csv file line. The program would read and store this file. 
+Finally, the program would loop through that file and print out each line. Each time the program ends, it appends a line with the statistics from the chat to the csv file and writes the chat to a file in the data folder.
+
+Problems
+I struggled to find out how to store the serial number of each chat, because the program would not know the serial number of the previous chat. To solve this, I decided to implement a method that would return the length of the csv file.
+This number would be the serial number of the next chat. Another problem I faced was figuring out how to split each line of the csv file into the data I wanted.
+I figured out that if I could identify the location of the commas in each line, I could split up the data as I wanted.

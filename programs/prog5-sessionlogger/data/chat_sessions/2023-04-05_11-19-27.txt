@@ -1,0 +1,63 @@
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: summary
+There are 3 chats to date with the user asking 11 times and the system responding 11 times. The total duration is 241.56599999999997 seconds
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat-summary 2
+This chat has the user asking 6 times and the system responding 6 times. The total duration of the session is is 111.314 seconds.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat 2
+Chat 2 is:
+
+programs/prog5-sessionlogger/data/chat_sessions/2023-04-04_18-24-07.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: summary
+There are 1 to date with the user asking 3 times and the system responding 3 times. The total duration is19.723seconds
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat-summary 2
+This is not a valid chat number, please try again.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat-summary 1
+This chat has the user asking 3 times and the system responding 3 times. The total duration of the session is is 19.723 seconds.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat 1
+Chat 1 is:
+
+programs/prog5-sessionlogger/data/chat_sessions/2023-04-04_11-51-50.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: what is polio
+Polio is a life-threatening disease caused by a virus. It was once one of the most feared diseases in the United States, but the creation of a vaccine in the 1950s ended the threat. 
+The U.S. is now polio-free, though travelers can still bring it into this country.
+Polio is short for "poliomyelitis." It iss a virus that spreads easily between people who are not vaccinated. 
+In its most severe form, it can attack your spinal cord and brain and cause paralysis.
+People of any age can get polio, but kids under 5 have the highest risk of getting it.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: who is at risk
+Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio. 
+If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster. 
+Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
+Source: programs\prog4-userintent2querymapper\data\CDCPolio.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: quit
+Thank you for using the disease chatbot.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat 2
+This is not a valid chat number, please try again.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: quit
+Thank you for using the disease chatbot.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat 200
+This is not a valid chat number, please try again.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: quit
+Thank you for using the disease chatbot.

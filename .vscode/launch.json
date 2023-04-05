@@ -1,6 +1,22 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+
+    {
+      "type": "java",
+      "name": "sandbox",
+      "request": "launch",
+      "mainClass": "sandbox",
+      "projectName": "CSCE240H-Spring2023-Lucas_6cb3353f"
+    },
+    {
+      "type": "java",
+      "name": "math",
+      "request": "launch",
+      "mainClass": "math",
+      "projectName": "CSCE240H-Spring2023-Lucas_6cb3353f"
+    },
     {
       "type": "java",
       "name": "ui",

@@ -1,0 +1,225 @@
+Input: What is polio?
+Output: System: Polio is a life-threatening disease caused by a virus. It was once one of the most feared diseases in the United States, but the creation of a vaccine in the 1950s ended the threat. 
+The U.S. is now polio-free, though travelers can still bring it into this country.
+Polio is short for "poliomyelitis." It iss a virus that spreads easily between people who are not vaccinated. 
+In its most severe form, it can attack your spinal cord and brain and cause paralysis.
+People of any age can get polio, but kids under 5 have the highest risk of getting it.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+Input: Who is at risk?
+Output: System: Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
+If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
+Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
+Source: programs\prog4-userintent2querymapper\data\CDCPolio.txt
+
+Input: What can travelers do to prevent polio?
+Output: System: Get the polio vaccine
+Make sure you are up to date on your polio vaccines. If you are up to date on your polio vaccines and traveling to a polio- affected country, you may need a one-time polio adult booster.
+Check the travel health page of your destination and talk to your healthcare professional to learn which vaccines you may need before traveling.
+Make sure children are vaccinated. For best protection, children should get four doses of polio vaccine. Ideally, children should receive a dose at ages
+2 months;
+4 months;
+6 through 18 months; and
+a booster dose at age 4 through 6 years.
+For information about adults who may not have received sufficient vaccine protection, see the adult polio vaccination schedule.
+See Polio Vaccine Information Statement (VIS) for more information.
+Choose safer food and drinks while traveling
+Follow the food and drink safety tips to avoid exposure to any food and drinks that could be contaminated by the stool of a person infected with polio.
+Wash your hands often
+Wash your hands often with soap and water, especially after using the bathroom or changing a childs diaper and before eating or preparing food.
+Alcohol-based hand sanitizers do not kill poliovirus.
+Do not touch your eyes, nose, or mouth. If you need to touch your face, make sure your hands are clean.
+Cover your mouth and nose with a tissue or your sleeve (not your hands) when coughing or sneezing.
+Source: programs\prog4-userintent2querymapper\data\CDCPolio.txt
+
+Input: What should I do to prevent polio after travel?
+Output: System: Sorry, I have no information on that question.
+
+Input: Give me more information about polio
+Output: System: Since 1988, the number of cases of polio in the world has gone down by 99%.
+The U.S. has not had a case of polio since 1979. In 2018, sources reported only 33 cases worldwide.
+But while many countries are polio-free, some still actively have it. And anyone who comes into contact with the virus who has not been vaccinated can get it.
+The best way to get rid of polio for good across the world is to make sure people are immunized.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+Input: What causes polio?
+Output: System: You get polio from a virus. You have to come in direct contact with the virus to get it.
+This can be person-to-person contact, or through contact with an object that has the virus on it.
+When you have the virus, it lives in your throat and intestines.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+Input: What are the types of Polio?
+Output: System: Sorry, I have no information on that question.
+
+Input: What are the symptoms of polio?
+Output: System: Most people who catch the poliovirus do not have symptoms.
+About 1 in 4 people will have symptoms that look a lot like the flu, such as:
+Sore throat
+Feeling tired
+Upset stomach Fever Headache
+Back or neck pain or stiffness Muscle weakness
+Stomach pain Vomiting
+"Nonparalytic polio" symptoms like these often do not cause you to become paralyzed. They usually go away on their own within 10 days.
+A smaller number of people have a more severe kind of polio that iss called "paralytic polio."
+If you have it, your symptoms will start off like the mild ones above. Within a week, you will also start to have:
+A loss of reflexes
+Severe muscle pain or weakness
+Floppy limbs
+A feeling of pins and needles in your legs
+Paralyzed arms, legs, or both
+Meningitis (an infection in your brain, spinal cord, or both)
+Polio can be life-threatening if the muscles you use to breathe get so weak that they no longer work.
+Years after you have polio, you may start to have other symptoms. Known as "post-polio syndrome," you could have:
+Problems with breathing and swallowing
+Muscle loss
+Sleep disorders like sleep apnea
+Trouble handling low temperatures
+Polio is different from acute flaccid myelitis (AFM), a rare but serious condition that also attacks the nervous system and causes your muscles to weaken.
+Some people call AFM a "polio-like" illness, but it is not the same virus.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+Input: When should I call a doctor about polio?
+Output: System: Sorry, I have no information on that question.
+
+Input: What is the polio diagnosis?
+Output: Sorry, I have no information on that question.
+
+Input: What is the treatment for polio?
+Output: System: If you have polio, your doctor will focus on making sure that you are comfortable and try to prevent any other health issues.
+Some treatments and tools for support include:
+Pain relievers (like ibuprofen)
+A ventilator (a device that helps you breathe)
+Physical therapy that can help keep your muscles working
+Bed rest and fluids for flu-like symptoms
+Antispasmodic medications to relax muscles
+Antibiotics     for urinary tract infections
+A heating pad for muscle aches and spasms
+Corrective braces
+Pulmonary rehabilitation to help with lung complications
+A mobility aid such as a cane, wheelchair, or electric scooter
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+Input: Are there complications from having polio?
+Output: System: Most people who catch the poliovirus do not have symptoms.
+About 1 in 4 people will have symptoms that look a lot like the flu, such as:
+Sore throat
+Feeling tired
+Upset stomach Fever Headache
+Back or neck pain or stiffness Muscle weakness
+Stomach pain Vomiting
+"Nonparalytic polio" symptoms like these often do not cause you to become paralyzed. They usually go away on their own within 10 days.
+A smaller number of people have a more severe kind of polio that iss called "paralytic polio."
+If you have it, your symptoms will start off like the mild ones above. Within a week, you will also start to have:
+A loss of reflexes
+Severe muscle pain or weakness
+Floppy limbs
+A feeling of pins and needles in your legs
+Paralyzed arms, legs, or both
+Meningitis (an infection in your brain, spinal cord, or both)
+Polio can be life-threatening if the muscles you use to breathe get so weak that they no longer work.
+Years after you have polio, you may start to have other symptoms. Known as "post-polio syndrome," you could have:
+Problems with breathing and swallowing
+Muscle loss
+Sleep disorders like sleep apnea
+Trouble handling low temperatures
+Polio is different from acute flaccid myelitis (AFM), a rare but serious condition that also attacks the nervous system and causes your muscles to weaken.
+Some people call AFM a "polio-like" illness, but it is not the same virus.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+Input: Tell me about the polio vaccine
+Output: System: There are two types of the vaccine:
+Inactivated poliovirus vaccine (IPV). You get this as a shot in either your leg or your arm.
+Oral poliovirus vaccine (OPV). This is an older form of the vaccine that is still used around the world.
+Today, kids in the U.S. often get four doses of the IPV vaccine, one dose each at ages:
+2 months
+4 months
+Between 6 and 18 months
+Between 4 and 6 years
+If you are an adult who got the polio vaccine as a child, you should still be immune.
+The only reason you might need a booster shot is if you plan to travel to a country where polio is still common or you spend time with someone who has polio.
+If you did not have all your vaccines or are unsure, your doctor can give them to you.
+You will get two shots that are 4 to 8 weeks apart, and then a third shot 6 months to a year later.
+While most of the world is also polio-free, three countries -- Afghanistan, Nigeria, and Pakistan -- have not fully stopped outbreaks of the virus.
+Some people can have an allergic reaction to the vaccine. Usually you will see any symptoms of an allergy within a few minutes to a few hours after you get it.
+To tell if you have an allergy to the polio vaccine, watch for:
+A hard time breathing
+Weakness
+Hoarseness or wheezing
+A rapid heart rate
+Hives
+Dizziness
+Call your doctor right away if you have any of these signs.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+
+%%Input: Anything unrelated (how are you? How is the weather?)
+%%Output: System: I could not understand this input, please rephrase and try again
+
+Input: quit
+Output: System: Thank you for using the disease chatbot.
+
+%%Input: Basic misspelling (whoo is at risk?, who is at rsk?)
+%%The system will output the same as long as the spelling isnt a critical error
+%%Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.
+%%If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
+%%Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
+%%If a critical word is misspelled, such as symptoms, the program will not be able to understand the input
+
+%%Input: Anything that does not match any querys by .7 or more (Why is polio a disease?)
+%%Output: System: I could not understand this input, please rephrase and try again
+
+Input: summary
+Output: System: There are 4 chats to date with the user asking 16 times and the system responding 16 times. The total duration is 292.077 seconds
+
+Input: showchat-summary 2
+Output: System: This chat has the user asking 6 times and the system responding 6 times. The total duration of the session is is 111.314 seconds.
+
+Input: showchat 2
+Output: System: Chat 2 is:
+
+programs/prog5-sessionlogger/data/chat_sessions/2023-04-04_18-24-07.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: summary
+There are 1 to date with the user asking 3 times and the system responding 3 times. The total duration is19.723seconds
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat-summary 2
+This is not a valid chat number, please try again.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat-summary 1
+This chat has the user asking 3 times and the system responding 3 times. The total duration of the session is is 19.723 seconds.    
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat 1
+Chat 1 is:
+
+programs/prog5-sessionlogger/data/chat_sessions/2023-04-04_11-51-50.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: what is polio
+Polio is a life-threatening disease caused by a virus. It was once one of the most feared diseases in the United States, but the creation of a vaccine in the 1950s ended the threat.
+The U.S. is now polio-free, though travelers can still bring it into this country.
+Polio is short for "poliomyelitis." It iss a virus that spreads easily between people who are not vaccinated.
+In its most severe form, it can attack your spinal cord and brain and cause paralysis.
+People of any age can get polio, but kids under 5 have the highest risk of getting it.
+Source: programs\prog4-userintent2querymapper\data\WebMDPolio.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: who is at risk
+Polio is still a concern in some places. If you are not up to date with your polio vaccines, you are at risk of getting polio.      
+If you are up to date on your polio vaccines but traveling to a polio-affected country, you may need a one-time polio adult booster.
+
+Check the travel health page of your destination and talk to your healthcare professional to learn what vaccines you may need before your trip.
+Source: programs\prog4-userintent2querymapper\data\CDCPolio.txt
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: quit
+Thank you for using the disease chatbot.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: showchat 2
+This is not a valid chat number, please try again.
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: quit
+Thank you for using the disease chatbot.
+
+Input: showchat 200
+Output: System: This is not a valid chat number, please try again.

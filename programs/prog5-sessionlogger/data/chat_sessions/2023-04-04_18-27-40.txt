@@ -1,0 +1,7 @@
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: summary
+There are 2 chats to date with the user asking 9 times and the system responding 9 times. The total duration is131.03699999999998seconds
+
+System: Ask me a question about the disease or enter "quit" to exit the program.
+User: quit
+Thank you for using the disease chatbot.
